@@ -52,6 +52,7 @@
     "ember-template-lint": "^5.6.0",
     "ember-welcome-page": "^7.0.1",
     "empress-blog": "^4.1.0",
+    "empress-blog-casper-template": "^4.3.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-ember": "^11.4.7",
@@ -75,9 +76,6 @@
   },
   "volta": {
     "node": "18.15.0"
-  },
-  "dependencies": {
-    "empress-blog-casper-template": "^4.3.0"
   },
   "fastbootDependencies": [
     "crypto"
