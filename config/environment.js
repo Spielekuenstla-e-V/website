@@ -25,15 +25,18 @@ module.exports = function (environment) {
       description: 'Static Blog System - Built with Ember',
       coverImage: '/images/blog-cover.jpg',
 
-      navigation: [{
-        label: 'Home',
-        route: 'index'
-      }, {
-        label: 'Built by Chris Manson',
-        route: 'page',
-        id: 'chris-manson'
-      }]
-    }
+      navigation: [
+        {
+          label: 'Home',
+          route: 'index',
+        },
+        {
+          label: 'Built by Chris Manson',
+          route: 'page',
+          id: 'chris-manson',
+        },
+      ],
+    },
   };
 
   if (environment === 'development') {
