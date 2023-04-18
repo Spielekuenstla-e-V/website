@@ -22,8 +22,8 @@ module.exports = function (environment) {
 
     blog: {
       title: 'empress-blog',
-      description: 'Static Blog System - Built with Ember',
-      coverImage: '/images/blog-cover.jpg',
+      description: 'Webseite des Spielekünstla e.V.',
+      coverImage: '/images/spielekuenstla-homepage.jpg',
 
       navigation: [
         {
@@ -31,9 +31,9 @@ module.exports = function (environment) {
           route: 'index',
         },
         {
-          label: 'Built by Chris Manson',
+          label: 'Erstellt von Spielekünstla e.V.',
           route: 'page',
-          id: 'chris-manson',
+          id: 'spielekuenstla',
         },
       ],
     },
