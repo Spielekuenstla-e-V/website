@@ -53,6 +53,7 @@
     "ember-welcome-page": "^7.0.1",
     "empress-blog": "^4.1.0",
     "empress-blog-casper-template": "^4.3.0",
+    "empress-blog-netlify-cms": "^0.0.2",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-ember": "^11.4.7",
