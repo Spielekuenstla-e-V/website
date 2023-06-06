@@ -21,7 +21,7 @@ module.exports = function (environment) {
     },
 
     blog: {
-      title: 'empress-blog',
+      title: 'Spielekünstla',
       description: 'Webseite des Spielekünstla e.V.',
       coverImage: '/images/spielekuenstla-homepage.jpg',
 
