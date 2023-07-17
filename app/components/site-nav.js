@@ -9,7 +9,7 @@ export default Component.extend({
   blog: service(),
   router: service(),
   isHome: equal('router.currentRouteName', 'index'),
-  rssFeed: computed('blog.host', function() {
+  rssFeed: computed('blog.host', function () {
     return `https://feedly.com/i/subscription/feed${encodeURIComponent(`/${this.blog.host}/rss.xml`)}`;
   }),
   layout

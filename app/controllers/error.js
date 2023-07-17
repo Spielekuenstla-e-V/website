@@ -5,7 +5,7 @@ import { computed } from '@ember/object';
 
 export default Controller.extend({
   blog: service(),
-  error: computed('model.errors.[]', function() {
+  error: computed('model.errors.[]', function () {
     return this.model.errors[0];
   })
 });

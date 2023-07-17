@@ -19,18 +19,23 @@ module.exports = function (defaults) {
           { module: easyImport },
           { module: customProperties, options: { preserve: false } },
           { module: colorFunction },
-          { module: autoprefixer, options: { overrideBrowserslist: ['last 2 versions'] } },
+          {
+            module: autoprefixer,
+            options: { overrideBrowserslist: ['last 2 versions'] },
+          },
           { module: cssnano },
         ],
       },
     },
     'responsive-image': {
-      images: [{
-        include: 'images/**/*',
-        removeSource: false,
-        quality: 80,
-        widths: [2000, 1000, 600, 300],
-      }],
+      images: [
+        {
+          include: 'images/**/*',
+          removeSource: false,
+          quality: 80,
+          widths: [2000, 1000, 600, 300],
+        },
+      ],
     },
   });
 

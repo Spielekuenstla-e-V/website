@@ -11,7 +11,7 @@ export default Component.extend({
   init() {
     this._super(...arguments);
 
-    if(this.fastboot.isFastBoot) {
+    if (this.fastboot.isFastBoot) {
       return;
     }
 
@@ -22,7 +22,7 @@ export default Component.extend({
     this.update();
   },
 
-  location: computed(function() {
+  location: computed(function () {
     return window.location;
   }),
 
@@ -32,7 +32,7 @@ export default Component.extend({
       this.requestTick();
     };
     set(this, 'scrollEvent', scrollEvent);
-    window.addEventListener('scroll', scrollEvent, {passive: true});
+    window.addEventListener('scroll', scrollEvent, { passive: true });
 
     let resizeEvent = () => {
       set(this, 'lastWindowHeight', window.innerHeight);
@@ -48,26 +48,26 @@ export default Component.extend({
   didDestroyElement() {
     let scrollEvent = this.scrollEvent;
 
-    if(scrollEvent) {
+    if (scrollEvent) {
       window.removeEventListener('scroll', scrollEvent);
       set(this, 'scrollEvent', null);
     }
 
     let resizeEvent = this.resizeEvent;
 
-    if(resizeEvent) {
+    if (resizeEvent) {
       window.removeEventListener('resize', resizeEvent);
       set(this, 'resizeEvent', null);
     }
   },
 
   requestTick() {
-      if (!this.ticking) {
-          requestAnimationFrame(() => {
-            this.update();
-          });
-      }
-      set(this, 'ticking', true);
+    if (!this.ticking) {
+      requestAnimationFrame(() => {
+        this.update();
+      });
+    }
+    set(this, 'ticking', true);
   },
 
   update() {
@@ -81,9 +81,9 @@ export default Component.extend({
 
     // show/hide floating header
     if (lastScrollY >= trigger + triggerOffset) {
-        set(this, 'floating', true);
+      set(this, 'floating', true);
     } else {
-        set(this, 'floating', false);
+      set(this, 'floating', false);
     }
 
     set(this, 'max', progressMax);

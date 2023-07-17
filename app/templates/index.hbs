@@ -4,33 +4,33 @@
 into the {body} of the default.hbs template --}}
 
 <Header @background={{this.blog.coverImage}}> {{!--Special header.hbs partial to generate the <header> tag--}}
-    <div class="inner">
-        <div class="site-header-content">
-            <h1 class="site-title">
-                {{#if this.blog.logo}}
-                    <img class="site-logo" src={{this.blog.logo}} alt={{this.blog.title}} />
-                {{else}}
-                    {{this.blog.title}}
-                {{/if}}
-            </h1>
-            <h2 class="site-description">{{this.blog.description}}</h2>
-        </div>
-        <SiteNav />
+  <div class="inner">
+    <div class="site-header-content">
+      <h1 class="site-title">
+        {{#if this.blog.logo}}
+          <img class="site-logo" src={{this.blog.logo}} alt={{this.blog.title}} />
+        {{else}}
+          {{this.blog.title}}
+        {{/if}}
+      </h1>
+      <h2 class="site-description">{{this.blog.description}}</h2>
     </div>
+    <SiteNav />
+  </div>
 </Header>
 
 {{!-- The main content area --}}
 <main id="site-main" class="site-main outer">
-    <div class="inner">
+  <div class="inner">
 
-        <div class="post-feed">
-            {{#each (sort-by 'date:desc' @model) as |post index|}}
+    <div class="post-feed">
+      {{#each (sort-by 'date:desc' @model) as |post index|}}
 
-                {{!-- The tag below includes the markup for each post - partials/post-card.hbs --}}
-                <PostCard @index={{index}} @post={{post}}/>
+        {{!-- The tag below includes the markup for each post - partials/post-card.hbs --}}
+        <PostCard @index={{index}} @post={{post}}/>
 
-            {{/each}}
-        </div>
-
+      {{/each}}
     </div>
+
+  </div>
 </main>

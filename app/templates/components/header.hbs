@@ -13,11 +13,10 @@ with a `no-image` class so we can style it accordingly.
 --}}
 
 {{#if @background}}
-
-<style type="text/css">
-.responsive-header-img {
-    background-image: url({{@background}});
-}
-</style>
+  <style type="text/css">
+  .responsive-header-img {
+      background-image: url({{@background}});
+  }
+  </style>
 {{/if}}
 {{yield}}
