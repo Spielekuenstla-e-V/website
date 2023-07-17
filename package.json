@@ -1,11 +1,11 @@
 {
   "name": "spielekuenstla-website",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "description": "Vereinswebseite des Spielekünstla e.V. aus Lemgo",
-  "repository": "",
+  "repository": "https://github.com/Draggha/spielekuenstla",
   "license": "",
-  "author": "",
+  "author": "Johann Haaf",
   "directories": {
     "doc": "doc",
     "test": "tests"
