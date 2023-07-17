@@ -11,20 +11,20 @@ date: Mo Jul 17 2023 21:06:15 GMT+0100 (IST)
 tags:
 ---
 
-## TERMINE 2023 | SPIELEKÜNSTLA-SPIELETREFF:
-* Freitag, 13.01. | statt.wohnzimmer 
-* Freitag, 10.02. | statt.wohnzimmer
-* Freitag, 10.03. | statt.wohnzimmer
-* Freitag, 14.04. | Lüerdissen "Bleibe" 
-* Freitag, 12.05. | Lüerdissen "Bleibe"
-* Freitag, 09.06. | Lüerdissen "Bleibe"
-* Freitag, 14.07. | Lüerdissen "Bleibe"
-* Freitag, 11.08. | Lüerdissen "Bleibe"
-* Freitag, 08.09. | Lüerdissen "Bleibe"
-* Samstag, 16.09. | 3. Spieletag | Lüerdissen "Bleibe"
-* Freitag, 13.10. | Lüerdissen "Bleibe"
-* Freitag, 10.11. | wird noch festgelegt
-* Freitag, 08.12. | wird noch festgelegt
+# TERMINE 2023 | SPIELEKÜNSTLA-SPIELETREFF:
+1. Freitag, 13.01. | statt.wohnzimmer 
+1. Freitag, 10.02. | statt.wohnzimmer
+1. Freitag, 10.03. | statt.wohnzimmer
+1. Freitag, 14.04. | Lüerdissen "Bleibe" 
+1. Freitag, 12.05. | Lüerdissen "Bleibe"
+1. Freitag, 09.06. | Lüerdissen "Bleibe"
+1. Freitag, 14.07. | Lüerdissen "Bleibe"
+1. Freitag, 11.08. | Lüerdissen "Bleibe"
+1. Freitag, 08.09. | Lüerdissen "Bleibe"
+1. Samstag, 16.09. | 3. Spieletag | Lüerdissen "Bleibe"
+1. Freitag, 13.10. | Lüerdissen "Bleibe"
+1. Freitag, 10.11. | wird noch festgelegt
+1. Freitag, 08.12. | wird noch festgelegt
 
 
 ## INFOS | SPIELEKÜNSTLA-SPIELETREFF:
