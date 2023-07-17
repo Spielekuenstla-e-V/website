@@ -60,4 +60,4 @@ Sollte Essen angeboten werden, ist für die Planung der Mengen eine Rückmeldung
 ## Mitglied werden
 
 Dir gefällt was du gesehen oder gehört hast? Hier ist der Antrag auf eine Mitgliedschaft im Verein Spielekünstla:
-<a href="/mitgliedsantrag_spielekünstla.pdf">Antrag auf Mitgliedschaft</a>
+<a href="/mitgliedsantrag_spielekuenstla.pdf">Antrag auf Mitgliedschaft</a>
