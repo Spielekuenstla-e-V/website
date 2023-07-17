@@ -34,6 +34,29 @@ Später dazukommen ist kein Problem.
 
 Bringt gerne eigene Gesellschaftsspiele mit. Im Vorhinein können Absprachen (Wer will was spielen und wer packt welches Spiel ein ...) in ⁠✅┊absprachen-spieletreff in unserem Discord getroffen werden.
 
+
+### Für das Leibliche Wohl: 
+Getränke:
+
+___0,33 L - Flasche je 1 €:___
+  * Viva Con Agua Mineralwasser laut
+  * Viva Con Agua Mineralwasser leise
+
+___0,33 L - Flasche je 1,50 €:___
+  * Fritz-Kola
+  * Fritz-Kola ohne Zucker
+  * Fritz Mischmasch Kola + Orange
+  * Fritz-Limo Orange
+  * Fritz-Limo Zitrone
+  * Fritz-Spritz Bio Traubenschorle
+  * Fritz-Spritz Bio Apfelschorle
+  * Limoment Apfel-Minze Naturlimo
+  * Limoment Eistee Birne-Grüntee
+
+Hin und wieder wird es ein Essensangebot geben, was ebenfalls gegen einen kleinen Betrag erworben werden kann.
+Sollte Essen angeboten werden, ist für die Planung der Mengen eine Rückmeldung hilfreich.
+
+
 ## Mitglied werden
 
 Dir gefällt was du gesehen oder gehört hast? Hier ist der Antrag auf eine Mitgliedschaft im Verein Spielekünstla:
