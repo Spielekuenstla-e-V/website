@@ -27,7 +27,7 @@ module.exports = function (environment) {
 
       navigation: [
         {
-          label: 'Home',
+          label: 'Neuigkeiten',
           route: 'index',
         },
         {
@@ -61,6 +61,7 @@ module.exports = function (environment) {
 
   if (environment === 'production') {
     // here you can enable a production-specific feature
+    ENV.blog.host = 'https://spielekuenstla.de/';
   }
 
   return ENV;
