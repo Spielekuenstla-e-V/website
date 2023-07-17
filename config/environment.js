@@ -31,7 +31,7 @@ module.exports = function (environment) {
           route: 'index',
         },
         {
-          label: 'Erstellt von Spielekünstla e.V.',
+          label: 'Verein',
           route: 'page',
           id: 'spielekuenstla',
         },
