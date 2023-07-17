@@ -28,7 +28,7 @@ tags:
 
 
 ## INFOS | SPIELEKÜNSTLA-SPIELETREFF:
-Der Freitagstreff beginnt meist um 18:00 und findet im Lüerdisser Weg 91, 32657 Lemgo statt. 
+Der Freitagstreff beginnt meist um 17:00 und findet im Lüerdisser Weg 91, 32657 Lemgo statt. 
 Von November 2022 bis März 2023 wird der Spieletreff in den Räumlichkeiten des statt.wohnzimmer (Echternstraße 16, 32657 Lemgo) veranstaltet.
 Später dazukommen ist kein Problem. 
 
