@@ -12,19 +12,24 @@ tags:
 ---
 
 # TERMINE 2023 | SPIELEKÜNSTLA-SPIELETREFF:
-1. Freitag, 13.01. | statt.wohnzimmer 
-1. Freitag, 10.02. | statt.wohnzimmer
-1. Freitag, 10.03. | statt.wohnzimmer
-1. Freitag, 14.04. | Lüerdissen "Bleibe" 
-1. Freitag, 12.05. | Lüerdissen "Bleibe"
-1. Freitag, 09.06. | Lüerdissen "Bleibe"
-1. Freitag, 14.07. | Lüerdissen "Bleibe"
-1. Freitag, 11.08. | Lüerdissen "Bleibe"
-1. Freitag, 08.09. | Lüerdissen "Bleibe"
-1. Samstag, 16.09. | 3. Spieletag | Lüerdissen "Bleibe"
-1. Freitag, 13.10. | Lüerdissen "Bleibe"
-1. Freitag, 10.11. | wird noch festgelegt
-1. Freitag, 08.12. | wird noch festgelegt
+1. ~~Freitag, 13.01. | statt.wohnzimmer (18 Uhr)~~
+1. ~~Freitag, 10.02. | statt.wohnzimmer (18 Uhr)~~
+1. ~~Freitag, 10.03. | statt.wohnzimmer (18 Uhr)~~
+1. ~~Freitag, 14.04. | Lüerdissen "Bleibe" (18 Uhr)~~
+1. ~~Freitag, 12.05. | Lüerdissen "Bleibe" (18 Uhr)~~
+1. ~~Freitag, 09.06. | Lüerdissen "Bleibe" (18 Uhr)~~
+1. ~~Freitag, 14.07. | Lüerdissen "Bleibe" (17 Uhr)~~
+1. Sonntag, 23.07. | Lüerdissen "Bleibe" (14 Uhr) | nur für Vereinsmitglieder
+1. Freitag, 11.08. | Lüerdissen "Bleibe" (17 Uhr)
+1. Sonntag, 20.08. | Lüerdissen "Bleibe" (14 Uhr) | nur für Vereinsmitglieder
+1. Freitag, 08.09. | Lüerdissen "Bleibe" (17 Uhr)
+1. Samstag, 16.09. | [Stadt-Land-Spielt (Spieletag 23)](https://stadt-land-spielt.de/)
+1. Sonntag, 17.09. | [Stadt-Land-Spielt (Spieletag 23)](https://stadt-land-spielt.de/)
+1. Freitag, 13.10. | Lüerdissen "Bleibe" (17 Uhr)
+1. Dienstag, 31.10. | Lüerdissen "Bleibe" (14 Uhr) | nur für Vereinsmitglieder
+1. Freitag, 10.11. | Lüerdissen "Bleibe" (17 Uhr)
+1. Sonntag, 26.11. | Lüerdissen "Bleibe" (14 Uhr) | nur für Vereinsmitglieder
+1. Freitag, 08.12. | Lüerdissen "Bleibe" (17 Uhr)
 
 
 ## INFOS | SPIELEKÜNSTLA-SPIELETREFF:
