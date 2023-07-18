@@ -38,7 +38,7 @@ var today = new Date();
 var $eventList = document.getElementById("event-list");
 $eventList.querySelectorAll("li").forEach((child) => {
   if (today > new Date(child.dataset.date)) {
-    child.remove();
+    $eventList.removeChild(child);
   }
 });
 </script>
