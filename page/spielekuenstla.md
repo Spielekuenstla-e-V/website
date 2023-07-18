@@ -13,7 +13,7 @@ tags:
 
 # TERMINE 2023 | SPIELEKÜNSTLA-SPIELETREFF:
 
-<ul id="event-list">
+<ol id="event-list">
   <li class="hidden" data-date="2023-01-13">Freitag, 13.01. | statt.wohnzimmer (18 Uhr)</li>
   <li class="hidden" data-date="2023-02-10">Freitag, 10.02. | statt.wohnzimmer (18 Uhr)</li>
   <li class="hidden" data-date="2023-03-10">Freitag, 10.03. | statt.wohnzimmer (18 Uhr)</li>
@@ -32,7 +32,7 @@ tags:
   <li class="hidden" data-date="2023-11-10">Freitag, 10.11. | Lüerdissen "Bleibe" (17 Uhr)</li>
   <li class="hidden" data-date="2023-11-26">Sonntag, 26.11. | Lüerdissen "Bleibe" (14 Uhr) | nur für Vereinsmitglieder</li>
   <li class="hidden" data-date="2023-12-08">Freitag, 08.12. | Lüerdissen "Bleibe" (17 Uhr)</li>
-</ul>
+</ol>
 <script>
 setTimeout(() => {
   var today = new Date();
@@ -40,6 +40,8 @@ setTimeout(() => {
   $eventList.querySelectorAll("li").forEach((child) => {
     if (today <= new Date(child.dataset.date)) {
       child.classList.remove('hidden');
+    } else {
+      child.remove();
     }
   });
 }, 1000);
