@@ -14,38 +14,25 @@ tags:
 # TERMINE 2023 | SPIELEKÜNSTLA-SPIELETREFF:
 
 <ol id="event-list">
-  <li class="hidden" data-date="2023-01-13">Freitag, 13.01. | statt.wohnzimmer (18 Uhr)</li>
-  <li class="hidden" data-date="2023-02-10">Freitag, 10.02. | statt.wohnzimmer (18 Uhr)</li>
-  <li class="hidden" data-date="2023-03-10">Freitag, 10.03. | statt.wohnzimmer (18 Uhr)</li>
-  <li class="hidden" data-date="2023-04-14">Freitag, 14.04. | Lüerdissen "Bleibe" (18 Uhr)</li>
-  <li class="hidden" data-date="2023-05-12">Freitag, 12.05. | Lüerdissen "Bleibe" (18 Uhr)</li>
-  <li class="hidden" data-date="2023-06-09">Freitag, 09.06. | Lüerdissen "Bleibe" (18 Uhr)</li>
-  <li class="hidden" data-date="2023-07-14">Freitag, 14.07. | Lüerdissen "Bleibe" (17 Uhr)</li>
-  <li class="hidden" data-date="2023-07-23">Sonntag, 23.07. | Lüerdissen "Bleibe" (14 Uhr) | nur für Vereinsmitglieder</li>
-  <li class="hidden" data-date="2023-08-11">Freitag, 11.08. | Lüerdissen "Bleibe" (17 Uhr)</li>
-  <li class="hidden" data-date="2023-08-20">Sonntag, 20.08. | Lüerdissen "Bleibe" (14 Uhr) | nur für Vereinsmitglieder</li>
-  <li class="hidden" data-date="2023-09-08">Freitag, 08.09. | Lüerdissen "Bleibe" (17 Uhr)</li>
-  <li class="hidden" data-date="2023-09-16">Samstag, 16.09. | <a href="https://stadt-land-spielt.de/">Stadt-Land-Spielt (Spieletag 23)</a></li>
-  <li class="hidden" data-date="2023-09-17">Sonntag, 17.09. | <a href="https://stadt-land-spielt.de/">Stadt-Land-Spielt (Spieletag 23)</a></li>
-  <li class="hidden" data-date="2023-10-13">Freitag, 13.10. | Lüerdissen "Bleibe" (17 Uhr)</li>
-  <li class="hidden" data-date="2023-10-31">Dienstag, 31.10. | Lüerdissen "Bleibe" (14 Uhr) | nur für Vereinsmitglieder</li>
-  <li class="hidden" data-date="2023-11-10">Freitag, 10.11. | Lüerdissen "Bleibe" (17 Uhr)</li>
-  <li class="hidden" data-date="2023-11-26">Sonntag, 26.11. | Lüerdissen "Bleibe" (14 Uhr) | nur für Vereinsmitglieder</li>
-  <li class="hidden" data-date="2023-12-08">Freitag, 08.12. | Lüerdissen "Bleibe" (17 Uhr)</li>
+  <li>Freitag, 13.01. | statt.wohnzimmer (18 Uhr)</li>
+  <li>Freitag, 10.02. | statt.wohnzimmer (18 Uhr)</li>
+  <li>Freitag, 10.03. | statt.wohnzimmer (18 Uhr)</li>
+  <li>Freitag, 14.04. | Lüerdissen "Bleibe" (18 Uhr)</li>
+  <li>Freitag, 12.05. | Lüerdissen "Bleibe" (18 Uhr)</li>
+  <li>Freitag, 09.06. | Lüerdissen "Bleibe" (18 Uhr)</li>
+  <li>Freitag, 14.07. | Lüerdissen "Bleibe" (17 Uhr)</li>
+  <li>Sonntag, 23.07. | Lüerdissen "Bleibe" (14 Uhr) | nur für Vereinsmitglieder</li>
+  <li>Freitag, 11.08. | Lüerdissen "Bleibe" (17 Uhr)</li>
+  <li>Sonntag, 20.08. | Lüerdissen "Bleibe" (14 Uhr) | nur für Vereinsmitglieder</li>
+  <li>Freitag, 08.09. | Lüerdissen "Bleibe" (17 Uhr)</li>
+  <li>Samstag, 16.09. | <a href="https://stadt-land-spielt.de/">Stadt-Land-Spielt (Spieletag 23)</a></li>
+  <li>Sonntag, 17.09. | <a href="https://stadt-land-spielt.de/">Stadt-Land-Spielt (Spieletag 23)</a></li>
+  <li>Freitag, 13.10. | Lüerdissen "Bleibe" (17 Uhr)</li>
+  <li>Dienstag, 31.10. | Lüerdissen "Bleibe" (14 Uhr) | nur für Vereinsmitglieder</li>
+  <li>Freitag, 10.11. | Lüerdissen "Bleibe" (17 Uhr)</li>
+  <li>Sonntag, 26.11. | Lüerdissen "Bleibe" (14 Uhr) | nur für Vereinsmitglieder</li>
+  <li>Freitag, 08.12. | Lüerdissen "Bleibe" (17 Uhr)</li>
 </ol>
-<script>
-setTimeout(() => {
-  var today = new Date();
-  var $eventList = document.getElementById("event-list");
-  $eventList.querySelectorAll("li").forEach((child) => {
-    if (today <= new Date(child.dataset.date)) {
-      child.classList.remove('hidden');
-    } else {
-      child.remove();
-    }
-  });
-}, 1000);
-</script>
 
 
 ## INFOS | SPIELEKÜNSTLA-SPIELETREFF:
