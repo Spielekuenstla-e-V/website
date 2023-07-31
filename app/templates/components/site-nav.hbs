@@ -11,11 +11,13 @@
     {{#if this.blog.navigation}}
       <NavigationLinks />
     {{/if}}
+    <div class="social-links">
+      <a class="social-link" href="https://discord.gg/7vd8c9Ev7t" title="Besuche Spielekünstla auf Instagram" target="_blank" rel="noopener"><SvgIcons::Discord /><span>&nbsp;Discord</span></a>
+      <a class="social-link" href="https://instagram.com/spielekuenstla" title="Besuche Spielekünstla auf Instagram" target="_blank" rel="noopener"><SvgIcons::Instagram /><span>&nbsp;Instagram</span></a>
+    </div>
   </div>
   <div class="site-nav-right">
     <div class="social-links">
-      <a class="social-link" href="https://discord.gg/7vd8c9Ev7t" title="Besuche Spielekünstla auf Instagram" target="_blank" rel="noopener"><SvgIcons::Discord />&nbsp;Discord</a>
-      <a class="social-link" href="https://instagram.com/spielekuenstla" title="Besuche Spielekünstla auf Instagram" target="_blank" rel="noopener"><SvgIcons::Instagram />&nbsp;Instagram</a>
       {{#if this.blog.facebook}}
         <a class="social-link social-link-fb" href="https://www.facebook.com/{{this.blog.facebook}}" title="Facebook" target="_blank" rel="noopener"><SvgIcons::Facebook /></a>
       {{/if}}
