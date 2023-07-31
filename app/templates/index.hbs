@@ -6,6 +6,7 @@ into the {body} of the default.hbs template --}}
 <Header @background={{this.blog.coverImage}}> {{!--Special header.hbs partial to generate the <header> tag--}}
   <div class="inner">
     <div class="site-header-content">
+      {{!--
       <h1 class="site-title">
         {{#if this.blog.logo}}
           <img class="site-logo" src={{this.blog.logo}} alt={{this.blog.title}} />
@@ -13,6 +14,7 @@ into the {body} of the default.hbs template --}}
           {{this.blog.title}}
         {{/if}}
       </h1>
+      --}}
       <h2 class="site-description">{{this.blog.description}}</h2>
     </div>
     <SiteNav />
