@@ -23,7 +23,7 @@ module.exports = function (environment) {
     blog: {
       title: 'Spielekünstla',
       description: '',
-      coverImage: '/images/spielekuenstla-homepage.jpg',
+      // coverImage: '/images/spielekuenstla-logo.png',
 
       navigation: [
         {
