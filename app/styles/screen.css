@@ -137,7 +137,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .site-nav-logo {
     flex-shrink: 0;
-    display: block;
+    display: none;
     margin-right: 24px;
     padding: 11px 0;
     color: #fff;
@@ -145,6 +145,12 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     line-height: 1em;
     font-weight: bold;
     letter-spacing: -0.5px;
+}
+
+@media (min-width: 500px) {
+    .site-nav-logo {
+        display: block;
+    }
 }
 
 .site-nav-logo:hover {
