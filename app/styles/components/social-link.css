@@ -1,3 +1,36 @@
+.social-links {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.social-links a:last-of-type {
+  padding-right: 20px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+  color: color(var(--darkgrey) l(-5%));
+  opacity: 0.8;
+}
+
+.social-link:hover {
+  opacity: 1;
+}
+
+.social-link svg {
+  height: 1.8rem;
+  fill: color(var(--darkgrey) l(-5%));
+}
+
+.social-link-rss svg {
+  height: 1.9rem;
+}
+
 .social-link span {
   display: none;
 }

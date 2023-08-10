@@ -1,4 +1,4 @@
 @import "./global";
 @import "./screen";
+@import "./components/site-header";
 @import "./components/social-link";
-@import "./components/main-logo";
