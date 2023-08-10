@@ -1,0 +1,9 @@
+.social-link span {
+  display: none;
+}
+
+@media (min-width: 795px) {
+  .social-link span {
+    display: inline;
+  }
+}
