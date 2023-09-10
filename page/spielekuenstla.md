@@ -11,7 +11,22 @@ date: Mo Jul 17 2023 21:06:15 GMT+0100 (IST)
 tags:
 ---
 
-# TERMINE 2023 | SPIELEKÜNSTLA-SPIELETREFF:
+# INFOS | SPIELEKÜNSTLA-SPIELETREFF:
+Der Freitagstreff beginnt meist um 17:00 und findet im Lüerdisser Weg 91, 32657 Lemgo statt. 
+Später dazukommen ist kein Problem.
+
+Bringt gerne eigene Gesellschaftsspiele mit. Im Vorhinein können Absprachen (Wer will was spielen und wer packt welches Spiel ein ...) in ⁠✅┊absprachen-spieletreff in unserem Discord getroffen werden.
+
+Getränke und Proviant sind für einen schmalen Taler zu erwerben.
+
+## Mitglied werden
+
+Dir gefällt was du gesehen oder gehört hast? Dann fülle doch einfach den Antrag auf eine Mitgliedschaft im Verein Spielekünstla aus:
+<a href="/mitgliedsantrag_spielekuenstla.pdf">Antrag auf Mitgliedschaft</a>
+
+![Logo von der Initiative Spielend für Toleranz - Gegen Rassismus und Fremdenfeindlichkeit](/images/spielend-fuer-toleranz.jpg)
+
+## TERMINE 2023 | SPIELEKÜNSTLA-SPIELETREFF:
 
 <ol id="event-list">
   <li>Freitag, 13.01. | statt.wohnzimmer (18 Uhr)</li>
@@ -33,19 +48,3 @@ tags:
   <li>Sonntag, 26.11. | Lüerdissen "Bleibe" (14 Uhr) | nur für Vereinsmitglieder</li>
   <li>Freitag, 08.12. | Lüerdissen "Bleibe" (17 Uhr)</li>
 </ol>
-
-
-## INFOS | SPIELEKÜNSTLA-SPIELETREFF:
-Der Freitagstreff beginnt meist um 17:00 und findet im Lüerdisser Weg 91, 32657 Lemgo statt. 
-Später dazukommen ist kein Problem.
-
-Bringt gerne eigene Gesellschaftsspiele mit. Im Vorhinein können Absprachen (Wer will was spielen und wer packt welches Spiel ein ...) in ⁠✅┊absprachen-spieletreff in unserem Discord getroffen werden.
-
-Getränke und Proviant sind für einen schmalen Taler zu erwerben.
-
-## Mitglied werden
-
-Dir gefällt was du gesehen oder gehört hast? Dann fülle doch einfach den Antrag auf eine Mitgliedschaft im Verein Spielekünstla aus:
-<a href="/mitgliedsantrag_spielekuenstla.pdf">Antrag auf Mitgliedschaft</a>
-
-![Logo von der Initiative Spielend für Toleranz - Gegen Rassismus und Fremdenfeindlichkeit](/images/spielend-fuer-toleranz.jpg)
