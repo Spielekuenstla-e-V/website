@@ -23,19 +23,19 @@ into the {body} of the default.hbs template --}}
 <main id="site-main" class="site-main outer">
   <div class="inner">
 
-    <div class="calendar">
-      <h2>Nächste Termine:</h2>
-
-      <ul id="event-list">
-        {{#each this.nearestEvents as |post index|}}
-          <li>
-            {{post.date}} | <strong>{{post.name}}</strong> @ {{post.location}} ({{post.time}})
-          </li>
-        {{/each}}
-      </ul>
-    </div>
-
     <div class="post-feed">
+      <div class="inner">
+        <h2>Nächste Termine:</h2>
+
+        <ul id="event-list">
+          {{#each this.nearestEvents as |post index|}}
+            <li>
+              {{post.date}} | <strong>{{post.name}}</strong> @ {{post.location}} ({{post.time}})
+            </li>
+          {{/each}}
+        </ul>
+      </div>
+
       {{#each this.featuredPosts as |post index|}}
 
         {{!-- The tag below includes the markup for each post - partials/post-card.hbs --}}
