@@ -1,6 +1,6 @@
 ---
 title: Verein
-image: /images/spielekuenstla-homepage.jpg
+image: /images/spielekuenstla-logo.png
 imageMeta:
   attribution:
   attributionLink:
