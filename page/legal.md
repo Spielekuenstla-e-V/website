@@ -1,6 +1,6 @@
 ---
 title: Mit ❤️ durch Spielekünstla e.V. erstellt
-image: /images/spielekuenstla-homepage.jpg
+image: /images/spielekuenstla-logo.png
 imageMeta:
   attribution:
   attributionLink:
@@ -26,3 +26,4 @@ Vertreten durch:<br>
 
 Eingetragen im Vereinsregister in Lemgo<br>
 Registerblatt VR 1802
+Steuernummer 329/5754/1929
