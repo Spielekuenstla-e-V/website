@@ -8,6 +8,10 @@ featured: true
 authors:
   - dose
 date: Sat Sep 16 2023 10:00:00 GMT+0100 (IST)
+meta:
+  event: Stadt-Land-Spielt
+  startTime: 10 Uhr
+  endTime: 18 Uhr
 tags:
   - spieleabend
 ---
