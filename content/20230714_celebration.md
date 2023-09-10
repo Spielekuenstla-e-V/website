@@ -7,7 +7,7 @@ imageMeta:
 featured: true
 authors:
   - julian
-date: Tue Jul 4 2023 18:30:00 GMT+0100 (IST)
+date: Fri Jul 14 2023 17:00:00 GMT+0100 (IST)
 tags:
   - spieleabend
 ---

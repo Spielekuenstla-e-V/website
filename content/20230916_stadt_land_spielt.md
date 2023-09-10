@@ -7,7 +7,7 @@ imageMeta:
 featured: true
 authors:
   - dose
-date: Tue Sep 16 2023 10:00:00 GMT+0100 (IST)
+date: Sat Sep 16 2023 10:00:00 GMT+0100 (IST)
 tags:
   - spieleabend
 ---
