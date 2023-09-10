@@ -21,7 +21,7 @@ Getränke und Proviant sind für einen schmalen Taler zu erwerben.
 
 ## Mitglied werden
 
-Dir gefällt was du gesehen oder gehört hast? Dann fülle doch einfach den Antrag auf eine Mitgliedschaft im Verein Spielekünstla aus:
+Dir gefällt was du gesehen oder gehört hast? Dann lies am besten unsere <a href="/page/charter">Grüdungssatzung</a> und fülle den Antrag auf eine Mitgliedschaft im Verein Spielekünstla aus:
 <a href="/mitgliedsantrag_spielekuenstla.pdf">Antrag auf Mitgliedschaft</a>
 
 ![Logo von der Initiative Spielend für Toleranz - Gegen Rassismus und Fremdenfeindlichkeit](/images/spielend-fuer-toleranz.jpg)
