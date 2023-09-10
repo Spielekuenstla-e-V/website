@@ -7,7 +7,7 @@ authors:
 date: Fri Oct 31 2023 14:00:00 GMT+0100 (IST)
 meta:
   event: Vereinsinterner Spieletreff
-  startTime: 10 Uhr
+  startTime: 14 Uhr
 tags:
   - spieleabend-intern
 ---
