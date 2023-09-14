@@ -1,7 +1,7 @@
 ---
-name: Dose
+name: Dominik Seidel
 id: dose
-image: ""
+image: /images/spielekuenstla-logo.png
 cover: null
 website: null
 twitter: ""
