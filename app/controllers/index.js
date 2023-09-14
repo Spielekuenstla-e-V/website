@@ -12,7 +12,7 @@ export default class IndexController extends Controller {
     const currentDate = DateTime.fromJSDate(this.currentCalendarDate);
     return this.allPostsInAscendingOrder.reduce((mem, post) => {
       const postDate = DateTime.fromJSDate(post.date);
-      if (currentDate <= postDate && mem.length < 3) {
+      if (currentDate <= postDate && post.meta?.event !== 'Bericht' && mem.length < 3) {
         const startTime = post.meta?.startTime ?? '17 Uhr';
         const endTime = post.meta?.endTime ? ` - ${post.meta?.endTime}` : '';
         mem.push({
