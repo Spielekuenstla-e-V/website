@@ -16,16 +16,22 @@
 
 .site-footer-content a {
   color: rgba(255,255,255,0.7);
+  fill: rgba(255,255,255,0.7);
 }
 
 .site-footer-content a:hover {
   color: rgba(255,255,255,1);
+  fill: rgba(255,255,255,1);
   text-decoration: none;
 }
 
 .site-footer-nav {
   display: flex;
   flex-direction: column;
+}
+
+.site-footer-nav svg {
+  height: 1.8rem;
 }
 
 @media (max-width: 650px) {
