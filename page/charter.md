@@ -2,7 +2,9 @@
 title: Gründungssatzung
 featured: false
 authors:
-  - jay
+  - jessi
+  - dodo
+  - dose
 date: Sun Sep 10 2023 21:27:00 GMT+0100 (IST)
 tags:
 ---
