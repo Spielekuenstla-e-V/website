@@ -24,16 +24,18 @@ into the {body} of the default.hbs template --}}
   <div class="inner">
 
     <div class="post-feed">
-      <div class="inner">
-        <h2>Nächste Termine:</h2>
+      <div class="outer">
+        <div class="inner">
+          <h2>Nächste Termine:</h2>
 
-        <ul id="event-list">
-          {{#each this.nearestEvents as |post index|}}
-            <li>
-              {{post.date}} | <strong>{{post.name}}</strong> @ {{post.location}} ({{post.time}})
-            </li>
-          {{/each}}
-        </ul>
+          <ul id="event-list">
+            {{#each this.nearestEvents as |post index|}}
+              <li>
+                {{post.date}} | <strong>{{post.name}}</strong> @ {{post.location}} ({{post.time}})
+              </li>
+            {{/each}}
+          </ul>
+        </div>
       </div>
 
       {{#each this.featuredPosts as |post index|}}
