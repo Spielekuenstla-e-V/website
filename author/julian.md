@@ -1,7 +1,7 @@
 ---
 name: Julian van Dyck
 id: julian
-image: /images/spielekuenstla-logo.png
+image: ""
 cover: null
 website: null
 twitter: ""

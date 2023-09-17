@@ -1,7 +1,7 @@
 ---
 name: Jessica van Dyck
 id: jessi
-image: /images/spielekuenstla-logo.png
+image: ""
 cover: null
 website: null
 twitter: ""

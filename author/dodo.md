@@ -1,7 +1,7 @@
 ---
 name: Dominik Remmert
 id: dodo
-image: /images/spielekuenstla-logo.png
+image: ""
 cover: null
 website: null
 twitter: ""
