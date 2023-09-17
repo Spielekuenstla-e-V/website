@@ -347,6 +347,10 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     background-color: inherit;
 }
 
+.avatar-wrapper svg {
+    fill: #1f3952;
+}
+
 .post-card-meta .profile-image-wrapper,
 .post-card-meta .avatar-wrapper {
     position: relative;

@@ -39,7 +39,7 @@
               <img class="author-profile-image" src={{author.image}} alt={{author.name}} />
             </LinkTo>
           {{else}}
-            <LinkTo @route="author" @model={{author.id}} class="static-avatar author-profile-image">
+            <LinkTo @route="author" @model={{author.id}} class="static-avatar avatar-wrapper">
               <SvgIcons::LogoSpielekuenstlaHeadline />
             </LinkTo>
           {{/if}}
