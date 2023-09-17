@@ -10,10 +10,10 @@
     {{#if @author.content}}
       <p>{{@author.content}}</p>
     {{else}}
-      <p>Read <LinkTo @route="author" @model={{@author.id}}>more posts</LinkTo> by this author.</p>
+      <p>Read <LinkTo @route="author" @model={{@author.id}}>mehr Artikel</LinkTo> dieses Autors.</p>
     {{/if}}
   </section>
 </section>
 <div class="post-full-footer-right">
-  <LinkTo @route="author" @model={{@author.id}} class="author-card-button">Read More</LinkTo>
+  <LinkTo @route="author" @model={{@author.id}} class="author-card-button">Mehr lesen</LinkTo>
 </div>

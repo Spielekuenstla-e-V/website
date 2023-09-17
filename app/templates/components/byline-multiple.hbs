@@ -21,9 +21,9 @@
           <div class="bio">
             {{#if author.content}}
               <p>{{author.content}}</p>
-              <p><LinkTo @route="author" @model={{author.id}}>More posts</LinkTo> by {{author.name}}.</p>
+              <p><LinkTo @route="author" @model={{author.id}}>mehr Artikel</LinkTo> von {{author.name}}.</p>
             {{else}}
-              <p>Read <LinkTo @route="author" @model={{author.id}}>more posts</LinkTo> by this author.</p>
+              <p>Read <LinkTo @route="author" @model={{author.id}}>mehr Artikel</LinkTo> dieses Autors.</p>
             {{/if}}
           </div>
         </div>
