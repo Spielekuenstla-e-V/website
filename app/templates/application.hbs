@@ -11,19 +11,35 @@ no-link-to-positional-params }}
   {{!-- The footer at the very bottom of the screen --}}
   <footer class="site-footer outer">
     <div class="site-footer-content inner">
-      <section class="copyright"><a href={{this.blog.url}}>{{this.blog.title}}</a> &copy; {{date format="YYYY"}}
-      </section>
       <nav class="site-footer-nav">
-        <a href="https://rezensionen-fuer-millionen.blogspot.com/2018/10/spielend-fur-toleranz.html" target="_blank" rel="noopener">Spielend für Toleranz</a>
-        <LinkTo @route="page" @model="legal">Impressum</LinkTo>
-        {{#if this.blog.facebook}}<a href="https://facebook.com/{{this.blog.facebook}}" target="_blank"
-          rel="noopener">Facebook</a>{{/if}}
-        {{#if this.blog.twitter}}<a href="https://twitter.com/{{this.blog.twitter}}" target="_blank"
-          rel="noopener">Twitter</a>{{/if}}
-        {{!-- <a href="https://github.com/empress/empress-blog-casper-template" target="_blank"
-          rel="noopener">empress-blog Casper Template</a> --}}
+        <h3>INFO</h3>
+        <ul class="nav-link-list">
+          <li><LinkTo @route="page" @model="events">Angebote</LinkTo></li>
+          <li><LinkTo @route="page" @model="spielekuenstla">Verein</LinkTo></li>
+          <li><LinkTo @route="page" @model="charter">Gründungssatzung</LinkTo></li>
+          <li><a href="mailto:info@spielekuenstla.de">Kontakt</a></li>
+          <li><LinkTo @route="page" @model="legal">Impressum</LinkTo></li>
+        </ul>
+      </nav>
+
+      <nav class="site-footer-nav">
+        <h3>SOCIAL MEDIA</h3>
+        <ul class="nav-link-list">
+          <li>
+            <a href="https://rezensionen-fuer-millionen.blogspot.com/2018/10/spielend-fur-toleranz.html" target="_blank" rel="noopener">Spielend für Toleranz</a>
+          </li>
+          {{#if this.blog.facebook}}
+            <li><a href="https://facebook.com/{{this.blog.facebook}}" target="_blank" rel="noopener">Facebook</a></li>
+          {{/if}}
+          {{#if this.blog.twitter}}
+            <li><a href="https://twitter.com/{{this.blog.twitter}}" target="_blank" rel="noopener">Twitter</a></li>
+          {{/if}}
+        </ul>
       </nav>
     </div>
+    <section class="inner">
+      Spielekünstla e.V. &copy; {{date format="YYYY"}}
+    </section>
   </footer>
 
 </div>
