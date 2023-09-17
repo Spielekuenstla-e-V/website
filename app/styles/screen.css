@@ -343,6 +343,10 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     object-fit: cover;
 }
 
+.avatar-wrapper {
+    background-color: inherit;
+}
+
 .post-card-meta .profile-image-wrapper,
 .post-card-meta .avatar-wrapper {
     position: relative;
