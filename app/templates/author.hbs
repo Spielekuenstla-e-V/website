@@ -10,6 +10,8 @@
       <div class="site-header-content">
         {{#if author.image}}
           <img class="author-profile-image" src={{author.image}} alt="{{author.name}}" />
+        {{else}}
+          <span class="avatar-wrapper"><SvgIcons::LogoSpielekuenstlaHeadline width="180" height="180" /></span>
         {{/if}}
         <h1 class="site-title">{{author.name}}</h1>
         {{#if author.content}}

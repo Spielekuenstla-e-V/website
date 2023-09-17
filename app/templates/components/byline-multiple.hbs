@@ -14,7 +14,7 @@
             {{#if author.image}}
               <img class="author-profile-image" src={{author.image}} alt={{author.name}} />
             {{else}}
-              <div class="author-profile-image"><SvgIcons::Avatar /></div>
+              <div class="author-profile-image"><SvgIcons::LogoSpielekuenstlaHeadline /></div>
             {{/if}}
             <h2>{{author.name}}</h2>
           </div>
@@ -33,7 +33,7 @@
             <img class="author-profile-image" src={{author.image}} alt={{author.name}} />
           </LinkTo>
         {{else}}
-          <LinkTo @route="author" @model={{author.id}} class="moving-avatar author-profile-image"><SvgIcons::Avatar /></LinkTo>
+          <LinkTo @route="author" @model={{author.id}} class="moving-avatar author-profile-image"><SvgIcons::LogoSpielekuenstlaHeadline /></LinkTo>
         {{/if}}
 
       </li>
