@@ -33,14 +33,6 @@ into the {body} of the default.hbs template --}}
           </div>
         </section>
 
-        <footer class="post-full-footer">
-          {{#if (gt post.authors.length 1)}}
-            <BylineMultiple @authors={{post.authors}} />
-          {{else}}
-            <BylineSingle @author={{get post.authors "0"}} />
-          {{/if}}
-        </footer>
-
       </article>
 
     </div>
