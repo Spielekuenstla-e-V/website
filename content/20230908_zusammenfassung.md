@@ -6,7 +6,7 @@ authors:
   - jessi
 date: Fri Sep 8 2023 23:59:59 GMT+0100 (IST)
 meta:
-  event: Bericht
+  event: Zusammenfassung
 tags:
   - spieleabend
 ---
