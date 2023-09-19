@@ -16,7 +16,7 @@ tags:
 
 ![Gründungsmitglieder des Spielekünstla e.V. am Tisch sitzend](/images/founder.jpg)
 
-Seit dem Herbst 2021 haben sich in Lemgo-Lüerdissen immer mehr Brettspielbegeisterte ein Mal im Monat zusammengefunden. Die Initiative zu diesem regelmäßigen Treff hatte unser Vereinsvorstand Dominik. Und je mehr Leute aufeinandertreffen, desto mehr Spinnerei entsteht. Seitdem war die Idee des ersten Brettspielvereins nicht mehr aus unseren Köpfen zu vertreiben. Inzwischen ist der bürokratische Teil der Gründung abgeschlossen. Seit Juli 2023 kann man bei uns Mitglied werden.
+Seit dem Herbst 2021 haben sich in Lemgo-Lüerdissen immer mehr Brettspielbegeisterte ein Mal im Monat zusammengefunden. Die Initiative zu diesem regelmäßigen Treff hatte unser Vereinsvorstand Dominik. Und je mehr Leute aufeinandertreffen, desto mehr Spinnerei entsteht. Seitdem war die Idee des ersten Brettspielvereins im Kreis Lippe nicht mehr aus unseren Köpfen zu vertreiben. Inzwischen ist der bürokratische Teil der Gründung abgeschlossen. Seit Juli 2023 kann man bei uns Mitglied werden.
 
 Für mehr grundlegende Infos, findest du unsere Satzung **<a href="/page/charter">hier</a>**.
 Und wenn wir dich jetzt schon überzeugt haben, findest du unseren Mitgliedsantrag **<a href="/mitgliedsantrag_spielekuenstla.pdf">hier</a>**.
