@@ -24,20 +24,20 @@ Und wenn wir dich jetzt schon überzeugt haben, findest du unseren Mitgliedsantr
 
 ## Was wir anbieten...
 
-Jeden zweiten Freitag eines Monat treffen wir Spielekünstla uns zum offenen Spieletreff um alle Arten von Brettspielen zu spielen - sei es Expertenspiel, Kennerspiel, Familienspiel, Social Deduction oder Partyspiel. Egal, ob sie kurz oder lang, einfach oder komplex sind, bei uns ist für jeden etwas dabei. Wir haben eine Vielzahl von Spielen zur Auswahl und auch erfahrene ErklärerInnen, die gerne bei den Regeln helfen. Natürlich sind auch eigene Spiele herzlich willkommen. Essen, Trinken und Snacks bieten wir ebenfalls an.
+Jeden zweiten Freitag eines Monat treffen wir Spielekünstla uns zum ***offenen Spieletreff*** um alle Arten von Brettspielen zu spielen - sei es Expertenspiel, Kennerspiel, Familienspiel, Social Deduction oder Partyspiel. Egal, ob sie kurz oder lang, einfach oder komplex sind, bei uns ist für jeden etwas dabei. Wir haben eine Vielzahl von Spielen zur Auswahl und auch erfahrene ErklärerInnen, die gerne bei den Regeln helfen. Natürlich sind auch eigene Spiele herzlich willkommen. Essen, Trinken und Snacks bieten wir ebenfalls an.
 
-Einmal im Monat treffen wir Spielekünstla uns außerdem zum vereinsinternen Spieletreff. Hier erwartet Mitglieder eine ruhigere und familäre Atmosphäre und so kommen auch unsere Teammitglieder mehr zum Spielen. An den Tagen machen wir es uns einfacher und jeder bringt etwas zu Essen mit oder wir bestellen etwas. Getränke gibt es aber wie sonst auch zu kaufen. Absprachen finden meist vorher über Discord statt. Oft ergibt sich dann auch eine Gelegenheit für große und lange Brettspiele.
+Einmal im Monat treffen wir Spielekünstla uns außerdem zum ***vereinsinternen Spieletreff***. Hier erwartet Mitglieder eine ruhigere und familäre Atmosphäre und so kommen auch unsere Teammitglieder mehr zum Spielen. An den Tagen machen wir es uns einfacher und jeder bringt etwas zu Essen mit oder wir bestellen etwas. Getränke gibt es aber wie sonst auch zu kaufen. Absprachen finden meist vorher über Discord statt. Oft ergibt sich dann auch eine Gelegenheit für große und lange Brettspiele.
 
 Brettspiele beschäftigen uns Tag und Nacht, daher halten wir es meist nicht ohne den täglichen Austausch aus. Sollte es dir auch so gehen, melde dich gern bei unserem Discord-Kanal an. Das ist ein Chat-Programm mit verschiedenen Unterkanälen, in denen wir uns über die Spieletreffs, neue Spiele in unseren Regalen, Regelfragen und vieles mehr austauschen. 
 
-Einige unserer Vereinsmitglieder sind auch an Tabletop interessiert und der ein oder andere Brettspieler kauft gern Spiele mit Miniaturen. Inzwischen treffen sich daher einige Vereinsmitglieder ein Mal im Monat zum Miniaturen bemalen. Die Plätze dafür sind begrenzt, daher wird der Termin und die Anmeldung dazu immer über Discord abgesprochen. Dort präsentieren einige auch gern ihre neusten Kunstwerke.
+Einige unserer Vereinsmitglieder sind auch an ***Tabletop*** interessiert und der ein oder andere Brettspieler kauft gern Spiele mit Miniaturen. Inzwischen treffen sich daher einige Vereinsmitglieder ein Mal im Monat zum ***Miniaturen bemalen***. Die Plätze dafür sind begrenzt, daher wird der Termin und die Anmeldung dazu immer über Discord abgesprochen. Dort präsentieren einige auch gern ihre neusten Kunstwerke.
 
 
 ## Was wir planen...
 
 Wolltet ihr immer schon einen ganzen Abend im Flair der 20er Jahre von Mafiabossen bedroht werden? Oder stehlt ihr lieber anderer Leute Hab und Gut als Piraten der Weltmeere? Wollt ihr euer Glück als Sheriff auf einem Zug gegen eine Horde Räuber herausfordern und dabei den Wilden Westen auferleben lassen?
-Das wollen wir auch gerne! Dazu planen wir den ein oder anderen Themenabend mit ausgefallener Dekoration und den besten Spielen zum jeweiligen Anlass. Vielleicht haben wir auch noch passende Kostüme dazu im Schrank.
+Das wollen wir auch gerne! Dazu planen wir den ein oder anderen ***Themenabend*** mit ausgefallener Dekoration und den besten Spielen zum jeweiligen Anlass. Vielleicht haben wir auch noch passende Kostüme dazu im Schrank.
 
-Brettspiele sind bisher unser größter gemeinsamer Nenner. Trotzdem finden sich immer mehr Interessierte für Pen & Paper oder Tabletop bei uns. Fremde Welten und neue Geschichten würden wir daher auch gern zum Leben erwecken und Möglichkeiten zum Kennernlernen anbieten.
+Brettspiele sind bisher unser größter gemeinsamer Nenner. Trotzdem finden sich immer mehr Interessierte für ***Pen & Paper*** oder ***Tabletop*** bei uns. Fremde Welten und neue Geschichten würden wir daher auch gern zum Leben erwecken und Möglichkeiten zum Kennernlernen anbieten.
 
 Hierzu halten wir aber auf dem Laufenden!
