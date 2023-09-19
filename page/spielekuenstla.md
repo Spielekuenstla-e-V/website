@@ -6,45 +6,38 @@ imageMeta:
   attributionLink:
 featured: true
 authors:
+  - jessi
   - jay
 date: Mo Jul 17 2023 21:06:15 GMT+0100 (IST)
 tags:
 ---
 
-# INFOS | SPIELEKÜNSTLA-SPIELETREFF:
-Der Freitagstreff beginnt meist um 17:00 und findet im Lüerdisser Weg 91, 32657 Lemgo statt. 
-Später dazukommen ist kein Problem.
+# Wie alles begann...
 
-Bringt gerne eigene Gesellschaftsspiele mit. Im Vorhinein können Absprachen (Wer will was spielen und wer packt welches Spiel ein ...) in ⁠✅┊absprachen-spieletreff in unserem Discord getroffen werden.
+![Gründungsmitglieder des Spielekünstla e.V. am Tisch sitzend](/images/founder.jpg)
 
-Getränke und Proviant sind für einen schmalen Taler zu erwerben.
+Seit dem Herbst 2021 haben sich in Lemgo-Lüerdissen immer mehr Brettspielbegeisterte ein Mal im Monat zusammengefunden. Die Initiative zu diesem regelmäßigen Treff hatte unser Vereinsvorstand Dominik. Und je mehr Leute aufeinandertreffen, desto mehr Spinnerei entsteht. Seitdem war die Idee des ersten Brettspielvereins nicht mehr aus unseren Köpfen zu vertreiben. Inzwischen ist der bürokratische Teil der Gründung abgeschlossen. Seit Juli 2023 kann man bei uns Mitglied werden.
 
-## Mitglied werden
+Für mehr grundlegende Infos, findest du unsere Satzung **<a href="/page/charter">hier</a>**.
+Und wenn wir dich jetzt schon überzeugt haben, findest du unseren Mitgliedsantrag **<a href="/mitgliedsantrag_spielekuenstla.pdf">hier</a>**.
 
-Dir gefällt was du gesehen oder gehört hast? Dann lies am besten unsere <a href="/page/charter">Gründungssatzung</a> und fülle den Antrag auf eine Mitgliedschaft im Verein Spielekünstla aus:
-<a href="/mitgliedsantrag_spielekuenstla.pdf">Antrag auf Mitgliedschaft</a>
 
-![Logo von der Initiative Spielend für Toleranz - Gegen Rassismus und Fremdenfeindlichkeit](/images/spielend-fuer-toleranz.jpg)
+## Was wir anbieten...
 
-## TERMINE 2023 | SPIELEKÜNSTLA-SPIELETREFF:
+Jeden zweiten Freitag eines Monat treffen wir Spielekünstla uns zum offenen Spieletreff um alle Arten von Brettspielen zu spielen - sei es Expertenspiel, Kennerspiel, Familienspiel, Social Deduction oder Partyspiel. Egal, ob sie kurz oder lang, einfach oder komplex sind, bei uns ist für jeden etwas dabei. Wir haben eine Vielzahl von Spielen zur Auswahl und auch erfahrene ErklärerInnen, die gerne bei den Regeln helfen. Natürlich sind auch eigene Spiele herzlich willkommen. Essen, Trinken und Snacks bieten wir ebenfalls an.
 
-<ol id="event-list">
-  <li>Freitag, 13.01. | statt.wohnzimmer (18 Uhr)</li>
-  <li>Freitag, 10.02. | statt.wohnzimmer (18 Uhr)</li>
-  <li>Freitag, 10.03. | statt.wohnzimmer (18 Uhr)</li>
-  <li>Freitag, 14.04. | Lüerdissen "Bleibe" (18 Uhr)</li>
-  <li>Freitag, 12.05. | Lüerdissen "Bleibe" (18 Uhr)</li>
-  <li>Freitag, 09.06. | Lüerdissen "Bleibe" (18 Uhr)</li>
-  <li>Freitag, 14.07. | Lüerdissen "Bleibe" (17 Uhr)</li>
-  <li>Sonntag, 23.07. | Lüerdissen "Bleibe" (14 Uhr) | nur für Vereinsmitglieder</li>
-  <li>Freitag, 11.08. | Lüerdissen "Bleibe" (17 Uhr)</li>
-  <li>Sonntag, 20.08. | Lüerdissen "Bleibe" (14 Uhr) | nur für Vereinsmitglieder</li>
-  <li>Freitag, 08.09. | Lüerdissen "Bleibe" (17 Uhr)</li>
-  <li>Samstag, 16.09. | <a href="https://stadt-land-spielt.de/">Stadt-Land-Spielt (Spieletag 23)</a></li>
-  <li>Sonntag, 17.09. | <a href="https://stadt-land-spielt.de/">Stadt-Land-Spielt (Spieletag 23)</a></li>
-  <li>Freitag, 13.10. | Lüerdissen "Bleibe" (17 Uhr)</li>
-  <li>Dienstag, 31.10. | Lüerdissen "Bleibe" (14 Uhr) | nur für Vereinsmitglieder</li>
-  <li>Freitag, 10.11. | Lüerdissen "Bleibe" (17 Uhr)</li>
-  <li>Sonntag, 26.11. | Lüerdissen "Bleibe" (14 Uhr) | nur für Vereinsmitglieder</li>
-  <li>Freitag, 08.12. | Lüerdissen "Bleibe" (17 Uhr)</li>
-</ol>
+Einmal im Monat treffen wir Spielekünstla uns außerdem zum vereinsinternen Spieletreff. Hier erwartet Mitglieder eine ruhigere und familäre Atmosphäre und so kommen auch unsere Teammitglieder mehr zum Spielen. An den Tagen machen wir es uns einfacher und jeder bringt etwas zu Essen mit oder wir bestellen etwas. Getränke gibt es aber wie sonst auch zu kaufen. Absprachen finden meist vorher über Discord statt. Oft ergibt sich dann auch eine Gelegenheit für große und lange Brettspiele.
+
+Brettspiele beschäftigen uns Tag und Nacht, daher halten wir es meist nicht ohne den täglichen Austausch aus. Sollte es dir auch so gehen, melde dich gern bei unserem Discord-Kanal an. Das ist ein Chat-Programm mit verschiedenen Unterkanälen, in denen wir uns über die Spieletreffs, neue Spiele in unseren Regalen, Regelfragen und vieles mehr austauschen. 
+
+Einige unserer Vereinsmitglieder sind auch an Tabletop interessiert und der ein oder andere Brettspieler kauft gern Spiele mit Miniaturen. Inzwischen treffen sich daher einige Vereinsmitglieder ein Mal im Monat zum Miniaturen bemalen. Die Plätze dafür sind begrenzt, daher wird der Termin und die Anmeldung dazu immer über Discord abgesprochen. Dort präsentieren einige auch gern ihre neusten Kunstwerke.
+
+
+## Was wir planen...
+
+Wolltet ihr immer schon einen ganzen Abend im Flair der 20er Jahre von Mafiabossen bedroht werden? Oder stehlt ihr lieber anderer Leute Hab und Gut als Piraten der Weltmeere? Wollt ihr euer Glück als Sheriff auf einem Zug gegen eine Horde Räuber herausfordern und dabei den Wilden Westen auferleben lassen?
+Das wollen wir auch gerne! Dazu planen wir den ein oder anderen Themenabend mit ausgefallener Dekoration und den besten Spielen zum jeweiligen Anlass. Vielleicht haben wir auch noch passende Kostüme dazu im Schrank.
+
+Brettspiele sind bisher unser größter gemeinsamer Nenner. Trotzdem finden sich immer mehr Interessierte für Pen & Paper oder Tabletop bei uns. Fremde Welten und neue Geschichten würden wir daher auch gern zum Leben erwecken und Möglichkeiten zum Kennernlernen anbieten.
+
+Hierzu halten wir aber auf dem Laufenden!
