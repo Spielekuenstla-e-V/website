@@ -4,10 +4,9 @@ image: /images/treff_banner.jpg
 featured: false
 authors:
   - jay
-date: Tue Oct 31 2023 14:00:00 GMT+0100 (IST)
+date: Tue Oct 31 2023 17:00:00 GMT+0100 (IST)
 meta:
   event: Vereinsinterner Spieletreff
-  startTime: 14 Uhr
 tags:
   - spieleabend-intern
 ---
