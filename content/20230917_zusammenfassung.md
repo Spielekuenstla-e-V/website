@@ -6,7 +6,7 @@ authors:
   - jessi
 date: Mon Sep 18 2023 23:03:00 GMT+0100 (IST)
 meta:
-  event: Stadt-Land-Spielt
+  event: Zusammenfassung
 tags:
   - spieleabend
 ---

@@ -5,6 +5,8 @@ featured: true
 authors:
   - jessi
 date: Sut Sep 30 2023 14:00:00 GMT+0100 (IST)
+meta:
+  event: Zusammenfassung
 tags:
   - miniaturen
 ---
