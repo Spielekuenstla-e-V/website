@@ -18,6 +18,26 @@ tags:
 
 Seit dem Herbst 2021 haben sich in Lemgo-Lüerdissen immer mehr Brettspielbegeisterte ein Mal im Monat zusammengefunden. Die Initiative zu diesem regelmäßigen Treff hatte unser Vereinsvorstand Dominik. Und je mehr Leute aufeinandertreffen, desto mehr Spinnerei entsteht. Seitdem war die Idee des ersten Brettspielvereins im Kreis Lippe nicht mehr aus unseren Köpfen zu vertreiben. Inzwischen ist der bürokratische Teil der Gründung abgeschlossen. Seit Juli 2023 kann man bei uns Mitglied werden.
 
+### Wer?
+Spielekünstla e. V. ist ein junger Gesellschaftsspielverein in Lemgo (Kreis Lippe, NRW)
+
+### Was?
+öffentlicher Spieletreff (monatlich, am 2. Freitag des Monats ab 17 Uhr), Vereinsspielen, Themenspieleabende, Miniaturen-Bemalen, Tabletop sowie Pen & Paper nach Absprache 
+
+### Wo?
+Lüerdissen "Bleibe", Lüerdisser Weg 91, 32657 Lemgo
+
+### Wie viele?
+88 Mitglieda (Stand 01.10.2023)
+
+### Für wen?
+Familien- bis Expertenspieler 
+
+### Historie?
+
+- **Tipperary-Launch-Event** mit [NIEHAUS Spiel & Freizeit](https://niehaus-lemgo.de/), Lemgo und [LOOKOUT SPIELE](https://lookout-spiele.de)
+- **Stadt-Land-Spielt! 2023**
+
 Für mehr grundlegende Infos, findest du unsere Satzung **<a href="/page/charter">hier</a>**.
 Und wenn wir dich jetzt schon überzeugt haben, findest du unseren Mitgliedsantrag **<a href="/mitgliedsantrag_spielekuenstla.pdf">hier</a>**.
 
