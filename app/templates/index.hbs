@@ -31,7 +31,9 @@ into the {body} of the default.hbs template --}}
           <ul id="event-list">
             {{#each this.nearestEvents as |post index|}}
               <li>
-                {{post.date}} | <strong>{{post.name}}</strong> @ {{post.location}} ({{post.time}})
+                <a href={{post.icsLink}} download={{concat post.icsTitle '.ics'}} title="Kalendereintrag speichern">
+                  <SvgIcons::CalendarAdd /> {{post.date}}
+                </a> | <strong>{{post.name}}</strong> @ {{post.location}} ({{post.time}})
               </li>
             {{/each}}
           </ul>
