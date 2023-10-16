@@ -1,7 +1,7 @@
 ---
 name: Jessica van Dyck
 id: jessi
-image: ""
+image: /uploads/jessi.jpg
 cover: null
 website: null
 twitter: ""
