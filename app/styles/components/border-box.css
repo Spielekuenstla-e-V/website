@@ -1,0 +1,10 @@
+.border-box {
+  border: 2px solid var(--lightgrey);
+  padding: 0 4rem 4rem 4rem;
+  margin: 0 -4rem 2rem;
+}
+
+.border-box h2 {
+  padding-top: 4rem;
+  margin-top: 0;
+}

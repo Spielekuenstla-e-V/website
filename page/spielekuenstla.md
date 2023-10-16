@@ -18,29 +18,44 @@ tags:
 
 Seit dem Herbst 2021 haben sich in Lemgo-Lüerdissen immer mehr Brettspielbegeisterte ein Mal im Monat zusammengefunden. Die Initiative zu diesem regelmäßigen Treff hatte unser Vereinsvorstand Dominik. Und je mehr Leute aufeinandertreffen, desto mehr Spinnerei entsteht. Seitdem war die Idee des ersten Brettspielvereins im Kreis Lippe nicht mehr aus unseren Köpfen zu vertreiben. Inzwischen ist der bürokratische Teil der Gründung abgeschlossen. Seit Juli 2023 kann man bei uns Mitglied werden.
 
-### Wer?
-Spielekünstla e. V. ist ein junger Gesellschaftsspielverein in Lemgo (Kreis Lippe, NRW)
+<div class="border-box">
+  <h2>Das Wichtigste in aller Kürze:</h2>
+  <div>
+    <h3>Wer?</h3>
+    Spielekünstla e. V. ist ein junger Gesellschaftsspielverein in Lemgo (Kreis Lippe, NRW)
+  </div>
 
-### Was?
-öffentlicher Spieletreff (monatlich, am 2. Freitag des Monats ab 17 Uhr), Vereinsspielen, Themenspieleabende, Miniaturen-Bemalen, Tabletop sowie Pen & Paper nach Absprache 
+  <div>
+    <h3>Was?</h3>
+    öffentlicher Spieletreff (monatlich, am 2. Freitag des Monats ab 17 Uhr), Vereinsspielen, Themenspieleabende, Miniaturen-Bemalen, Tabletop sowie Pen & Paper nach Absprache 
+  </div>
 
-### Wo?
-Lüerdissen "Bleibe", Lüerdisser Weg 91, 32657 Lemgo
+  <div>
+    <h3>Wo?</h3>
+    Lüerdissen "Bleibe", Lüerdisser Weg 91, 32657 Lemgo
+  </div>
 
-### Wie viele?
-88 Mitglieda (Stand 01.10.2023)
+  <div>
+    <h3>Wie viele?</h3>
+    88 Mitglieda (Stand 01.10.2023)
+  </div>
 
-### Für wen?
-Familien- bis Expertenspieler 
+  <div>
+    <h3>Für wen?</h3>
+    Familien- bis Expertenspieler 
+  </div>
 
-### Historie?
+  <div>
+    <h3>Historie?</h3>
+    <ul>
+      <li><strong>Tipperary-Launch-Event</strong> mit <a href="https://niehaus-lemgo.de/">NIEHAUS Spiel & Freizeit</a>, Lemgo und <a href="https://lookout-spiele.de">LOOKOUT SPIELE</a></li>
+      <li><strong>Stadt-Land-Spielt! 2023</strong></li>
+    </ul>
 
-- **Tipperary-Launch-Event** mit [NIEHAUS Spiel & Freizeit](https://niehaus-lemgo.de/), Lemgo und [LOOKOUT SPIELE](https://lookout-spiele.de)
-- **Stadt-Land-Spielt! 2023**
-
-Für mehr grundlegende Infos, findest du unsere Satzung **<a href="/page/charter">hier</a>**.
-Und wenn wir dich jetzt schon überzeugt haben, findest du unseren Mitgliedsantrag **<a href="/mitgliedsantrag_spielekuenstla.pdf">hier</a>**.
-
+    Für mehr grundlegende Infos, findest du unsere Satzung <strong><a href="/page/charter">hier</a></strong>.
+    Und wenn wir dich jetzt schon überzeugt haben, findest du unseren Mitgliedsantrag <strong><a href="/mitgliedsantrag_spielekuenstla.pdf">hier</a></strong>.
+  </div>
+</div>
 
 ## Was wir anbieten...
 
