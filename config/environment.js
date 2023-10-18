@@ -31,11 +31,19 @@ module.exports = function (environment) {
           route: 'index',
         },
         {
+          label: 'Angebote',
+          route: 'page',
+          id: 'events',
+        },
+        {
           label: 'Verein',
           route: 'page',
           id: 'spielekuenstla',
         },
       ],
+    },
+    fastboot: {
+      hostWhitelist: ['spielekuenstla.de', /^localhost:\d+$/],
     },
   };
 
