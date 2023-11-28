@@ -27,7 +27,7 @@ Seit dem Herbst 2021 haben sich in Lemgo-Lüerdissen immer mehr Brettspielbegeis
 
   <div>
     <h3>Was?</h3>
-    öffentlicher Spieletreff (monatlich, am 2. Freitag des Monats ab 17 Uhr), Vereinsspielen, Themenspieleabende, Miniaturen-Bemalen, Tabletop sowie Pen & Paper nach Absprache 
+    öffentlicher Spieletreff (am 2. Freitag des Monats eines neuen Quartals ab 17 Uhr), Vereinsspielen, Themenspieleabende, Miniaturen-Bemalen, Tabletop sowie Pen & Paper nach Absprache 
   </div>
 
   <div>
@@ -59,7 +59,7 @@ Seit dem Herbst 2021 haben sich in Lemgo-Lüerdissen immer mehr Brettspielbegeis
 
 ## Was wir anbieten...
 
-Jeden zweiten Freitag eines Monats treffen wir Spielekünstla uns zum ***offenen Spieletreff*** um alle Arten von Brettspielen zu spielen - sei es Expertenspiel, Kennerspiel, Familienspiel, Social Deduction oder Partyspiel. Egal, ob sie kurz oder lang, einfach oder komplex sind, bei uns ist für jeden etwas dabei. Wir haben eine Vielzahl von Spielen zur Auswahl und auch erfahrene ErklärerInnen, die gerne bei den Regeln helfen. Natürlich sind auch eigene Spiele herzlich willkommen. Essen, Trinken und Snacks bieten wir ebenfalls an.
+Einmal im Quartal treffen wir Spielekünstla uns zum ***offenen Spieletreff*** um alle Arten von Brettspielen zu spielen - sei es Expertenspiel, Kennerspiel, Familienspiel, Social Deduction oder Partyspiel. Egal, ob sie kurz oder lang, einfach oder komplex sind, bei uns ist für jeden etwas dabei. Wir haben eine Vielzahl von Spielen zur Auswahl und auch erfahrene ErklärerInnen, die gerne bei den Regeln helfen. Natürlich sind auch eigene Spiele herzlich willkommen. Essen, Trinken und Snacks bieten wir ebenfalls an.
 
 Einmal im Monat treffen wir Spielekünstla uns außerdem zum ***vereinsinternen Spieletreff***. Hier erwartet Mitglieder eine ruhigere und familiäre Atmosphäre und so kommen auch unsere Teammitglieder mehr zum Spielen. An den Tagen machen wir es uns einfacher und jeder bringt etwas zu Essen mit oder wir bestellen etwas. Getränke gibt es aber wie sonst auch zu kaufen. Absprachen finden meist vorher über Discord statt. Oft ergibt sich dann auch eine Gelegenheit für große und lange Brettspiele.
 
