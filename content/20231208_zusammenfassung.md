@@ -14,9 +14,9 @@ tags:
 Gebrannte Mandeln oder Würfel? Glühwein oder Spielkarten? Regen und Kälte oder gemütliche Atmosphäre?
 
 Für 65 Spielekünstla waren diese Fragen schnell beantwortet. Kläschen hin oder her - natürlich wurde am 08.12.2023 wieder erfolgreich gespielt in der Lüerdisser Bleibe.
-Kulinarisch waren wir ebenfalls versorgt mit einem Chili con Carne und einem thailändischen Gemüse-Curry war für jeden Geschmack etwas dabei.
+Kulinarisch waren wir ebenfalls versorgt mit einem Chili con Carne und einem thailändischen Gemüse-Curry, da war für jeden Geschmack etwas dabei.
 
-Ein besonderes Highlight war unser Weihnachtsgewinnspiel organisiert von Dominik. Er präsentierte allen ein großes Glas voller Spielezubehör und die anwesenden Spielekünstla konnten mittels einer Spende für den Verein einen Tipp abgeben, wie viele Einzelteile sich in dem Glas befinden. Die Schätzungen gingen weit auseinander, aber nachdem eine Live-Auszählung durchgeführt wurden, konnten anschließend vier Preise herausgegeben werden. In dem Glas befanden sich 868 Teile und folgende Plätze wurden vergeben:
+Ein besonderes Highlight war unser Weihnachtsgewinnspiel organisiert von Dominik. Er präsentierte allen ein großes Glas voller Spielezubehör und die anwesenden Spielekünstla konnten mittels einer Spende für den Verein einen Tipp abgeben, wie viele Einzelteile sich in dem Glas befinden. Die Schätzungen gingen weit auseinander, aber nachdem eine Live-Auszählung durchgeführt wurde, konnten anschließend vier Preise herausgegeben werden. In dem Glas befanden sich 868 Teile und folgende Plätze wurden vergeben:
 
 1. Annika (840)
 2. Anna (786)
