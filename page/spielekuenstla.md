@@ -37,7 +37,7 @@ Seit dem Herbst 2021 haben sich in Lemgo-Lüerdissen immer mehr Brettspielbegeis
 
   <div>
     <h3>Wie viele?</h3>
-    88 Mitglieda (Stand 01.10.2023)
+    120 Mitglieda (Stand 22.01.2024)
   </div>
 
   <div>
