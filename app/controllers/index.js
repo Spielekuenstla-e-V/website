@@ -64,8 +64,8 @@ export default class IndexController extends Controller {
   get nearestEvents() {
     const currentDate = DateTime.fromJSDate(this.currentCalendarDate);
     return this.allPostsInAscendingOrder.reduce((mem, post) => {
-      const postDate = DateTime.fromJSDate(post.date);
-      if (currentDate <= postDate && post.meta?.event !== 'Zusammenfassung' && mem.length < 3) {
+      const linkRemovalDate = DateTime.fromJSDate(post.date).set({ hour: 0, minute: 0, second: 0 }).plus({ days: 1 });
+      if (currentDate.toMillis() <= linkRemovalDate.toMillis() && post.meta?.event !== 'Zusammenfassung' && mem.length < 3) {
         const startTime = post.meta?.startTime ?? '17 Uhr';
         const endTime = post.meta?.endTime ? ` - ${post.meta?.endTime}` : '';
         const name = post.meta?.event ?? 'Spieletreff';
@@ -74,6 +74,7 @@ export default class IndexController extends Controller {
           ? { hour: Number(endHour), minute: Number(endMinute) }
           : { hour: Number(endHour) };
 
+        const postDate = DateTime.fromJSDate(post.date);
         const icsLink = generateICalendarAttributes({
           name,
           startDate: postDate,
