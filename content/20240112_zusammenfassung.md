@@ -3,7 +3,7 @@ title: 12.01. Notierkünstla
 image: /images/20240112_spieletreff.jpg
 featured: true
 authors:
-  - jay
+  - jessi
 date: Fri Jan 12 2024 17:00:00 GMT+0100 (IST)
 meta:
   event: Zusammenfassung
