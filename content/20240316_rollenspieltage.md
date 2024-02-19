@@ -79,6 +79,12 @@ Siebenstreich, die mächtigste Waffe Aventuriens wurde vor langer Zeit zerstört
 
 ![Bild eines Lagerfeuers nahe einem Fluss](/images/20240316_streamers.png)
 
+<div style="border: 1px solid grey; padding: 0 1rem 1rem 1rem;">
+Es besteht die Option, die folgende Spielrunden im Rahmen des Online-Programms der Gratisrollenspieltage auf <a href="https://twitch.tv/AgainsttheOddsDE">twitch.tv/AgainsttheOddsDE</a> live zu streamen und später dauerhaft auf <a href="https://youtube.com/@AgainsttheOddsDE">youtube.com/@AgainsttheOddsDE</a> zu veröffentlichen, falls sich genügend Streaming-Interessierte finden. Hättest du Interesse und wärest damit einverstanden, dabei mitzuspielen?
+</div>
+
+<br>
+
 ## A Wild Sheep Chase (Klassisch Fantasy)
 
 > System: D&D 5E - Personen: 6 - Alter: ab 16 - Dauer: 3h - 4h
