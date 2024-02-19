@@ -80,7 +80,9 @@ Siebenstreich, die mächtigste Waffe Aventuriens wurde vor langer Zeit zerstört
 ![Bild eines Lagerfeuers nahe einem Fluss](/images/20240316_streamers.png)
 
 <div style="border: 1px solid grey; padding: 0 1rem 1rem 1rem;">
-Es besteht die Option, die folgende Spielrunden im Rahmen des Online-Programms der Gratisrollenspieltage auf <a href="https://twitch.tv/AgainsttheOddsDE">twitch.tv/AgainsttheOddsDE</a> live zu streamen und später dauerhaft auf <a href="https://youtube.com/@AgainsttheOddsDE">youtube.com/@AgainsttheOddsDE</a> zu veröffentlichen, falls sich genügend Streaming-Interessierte finden. Hättest du Interesse und wärest damit einverstanden, dabei mitzuspielen?
+Durch Kooperation mit der fantastisch kreativen Gruppe <a href="https://againsttheodds.de/">Against the Odds</a> besteht die Option, die folgenden Spielrunden im Rahmen des Online-Programms der Gratisrollenspieltage auf <a href="https://twitch.tv/AgainsttheOddsDE">Twitch</a> live zu streamen und später dauerhaft auf <a href="https://youtube.com/@AgainsttheOddsDE">Youtube</a> zu veröffentlichen, falls sich genügend Streaming-Interessierte finden. Hättest du Interesse und wärest damit einverstanden, dabei mitzuspielen?
+
+Stöbere doch gerne mal in ihrer Sammlung von Rollenspielvideos auf <a href="https://www.twitch.tv/AgainsttheOddsDE/videos">Twitch</a> und <a href="https://www.youtube.com/@AgainsttheOddsDE/videos">Youtube</a> und überzeuge dich selbst von diesen wundervollen Menschen.
 </div>
 
 <br>
