@@ -19,10 +19,9 @@ tags:
 # Zum Event
 Vom 16. bis zum 23.03.2024 finden die [Gratisrollenspieltage](https://www.gratisrollenspieltag.de/) in ganz Deutschland statt! Wir beteiligen uns gerne daran und laden ein sich zum Event 16.03.2024 ab 12 Uhr bei uns anzumelden um in der "Bleibe" zu spielen!
 
-[Hier geht es zum Anmeldungsformular](https://docs.google.com/forms/d/e/1FAIpQLSfgfExvhTmWk1eUeiOHKmdba_DOM29FEEbmsjnsSrgpNGE_2A/viewform).
+Ihr fragt euch was dieses Rollenspiel eigentlich ist? Kein Problem! [Hier findet ihr Auskunft](https://www.gratisrollenspieltag.de/hilfe-zum-rollenspiel).
 
-Folgendes haben wir im Angebot:
-
+[Hier geht es zum Anmeldungsformular](https://docs.google.com/forms/d/e/1FAIpQLSfgfExvhTmWk1eUeiOHKmdba_DOM29FEEbmsjnsSrgpNGE_2A/viewform) und auf folgende Angebote könnt ihr euch freuen:
 
 # Angebote für junge Helden
 
