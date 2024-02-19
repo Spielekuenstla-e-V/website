@@ -42,7 +42,7 @@ Die Heldenakademie hat so viele Schüler, dass viele Dinge unter dem Schutzmante
 ## Hutjagd (Klassisch Fantasy) 
 > System: Ilaris - Personen: 5 - Alter: ab 16 - Dauer: 3h - 6h
 
-Alle paar Jahre treffe nsich die besten Kapitäne der Sturmkorsaren in einem kleinen Dorf zu den Korsarenspiele. Bei diesem Spiel können die Helden ihren Mut, Können und Finesse unter Beweis stellen. Es geht um Ruhm und Reichtum.
+Alle paar Jahre treffen sich die besten Kapitäne der Sturmkorsaren in einem kleinen Dorf zu den Korsarenspiele. Bei diesem Spiel können die Helden ihren Mut, Können und Finesse unter Beweis stellen. Es geht um Ruhm und Reichtum.
 
 ## Upton Abbey (Dark Fantasy)
 > System: Call of Cthulhu - Personen: 6 - Alter: ab 18 Dauer: 3h - 8h
