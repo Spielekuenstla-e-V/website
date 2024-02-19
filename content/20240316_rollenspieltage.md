@@ -70,7 +70,7 @@ Wir befinden uns in einer Welt, die unserer gleicht, nur dass sämtliche Fantasy
 
 ## Die sieben magischen Kelche (Fantasy)
 
-> System: Das Schwarze Auge - Personen: 6 - Alter: ab 16 - Dauer: 5h
+> System: DSA - Personen: 6 - Alter: ab 16 - Dauer: 5h
 
 Siebenstreich, die mächtigste Waffe Aventuriens wurde vor langer Zeit zerstört, in sieben magische Kelche gegossen und an den entlegensten Orten versteckt. Doch nun haben böse Mächte es geschafft, bereits sechs der Kelche in ihre Gewalt zu bringen und in die Tempelstadt H’rabaal zu schleppen. Nun ist es an einer kleinen Gruppe Helden, die Kelche zu finden.
 
