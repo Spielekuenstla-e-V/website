@@ -92,9 +92,3 @@ Stöbere doch gerne mal in ihrer Sammlung von Rollenspielvideos auf <a href="htt
 > System: D&D 5E - Personen: 6 - Alter: ab 16 - Dauer: 3h - 4h
 
 In diesem klassischen Fantasy-Abenteuer will eine Abenteurergruppe einen wohlverdienten freien Tag genießen, doch ein aufdringliches Schaf gönnt ihnen die Pause nicht. Stattdessen müssen sie einen machthungrigen Zauberlehrling in die Schranken weisen. 
-
-## Ein Tolles Abenteuer (Fantasy / Dark Sci-Fi)
-
-> System: Cyberpunk RED / D&D 5E - Personen: 6 - Alter: ab 13 - Dauer: 1h - 3h
-
-Tolle Beschreibung von einem tollen Abenteuer. Echt toll.
