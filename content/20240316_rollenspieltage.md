@@ -1,7 +1,7 @@
 ---
 title: Gratisrollenspieltage 2024
 image: /images/20240316_rollenspieltage.jpg
-featured: false
+featured: true
 authors:
   - jessi
   - dave
