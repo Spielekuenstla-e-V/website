@@ -1,7 +1,7 @@
 ---
 name: Silke Haaf
 id: zylke
-image: ""
+image: /uploads/zylke.jpg
 cover: null
 website: null
 twitter: ""
