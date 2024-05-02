@@ -4,10 +4,10 @@ image: /images/treff_banner.jpg
 featured: false
 authors:
   - jay
-date: Fri May 10 2024 17:00:00 GMT+0100 (IST)
+date: Fri May 10 2024 15:00:00 GMT+0100 (IST)
 meta:
   event: Vereinsinterner Spieletreff
-  startTime: 17 Uhr
+  startTime: 15 Uhr
 tags:
   - spieleabend-intern
 ---
