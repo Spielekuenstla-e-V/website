@@ -7,5 +7,3 @@
 [[redirects]]
   from = "/brettspielwochenende"
   to = "/20241018_brettspielwochenende"
-  status = 200
-  force = true # COMMENT: ensure that we always redirect
