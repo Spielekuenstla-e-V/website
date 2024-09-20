@@ -4,10 +4,10 @@ image: /images/logo_brettspielwochenende.png
 featured: true
 authors:
   - dose
-date: Fri Oct 18 2024 16:00:00 GMT+0100 (IST)
+date: Fri Oct 18 2024 17:00:00 GMT+0100 (IST)
 meta:
   event: Brettspielwochenende
-  startTime: 16 Uhr
+  startTime: 17 Uhr
   location: Friedrich Blecher Haus, Bockstal 2, 32805 Horn-Bad Meinberg
 tags:
   - brettspielwochenende
