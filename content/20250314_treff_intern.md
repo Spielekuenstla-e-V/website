@@ -4,7 +4,7 @@ image: /images/treff_banner.jpg
 featured: false
 authors:
   - jay
-date: Fri Mar 14 2024 17:00:00 GMT+0100 (IST)
+date: Fri Mar 14 2025 17:00:00 GMT+0100 (IST)
 meta:
   event: Vereinsinterner Spieletreff
   startTime: 14 Uhr
