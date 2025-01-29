@@ -7,7 +7,7 @@ authors:
 date: Fri Nov 07 2025 17:00:00 GMT+0100 (IST)
 meta:
   event: Vereinsinterner Spieletreff
-  startTime: 14 Uhr
+  startTime: 17 Uhr
 tags:
   - spieleabend-intern
 ---
