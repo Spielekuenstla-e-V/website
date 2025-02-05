@@ -4,15 +4,15 @@ image: /images/treff_banner.jpg
 featured: false
 authors:
   - jay
-date: Sun Feb 23 2025 14:00:00 GMT+0100 (IST)
+date: Fri Feb 21 2025 17:00:00 GMT+0100 (IST)
 meta:
   event: Vereinsinterner Spieletreff
-  startTime: 14 Uhr
+  startTime: 17 Uhr
 tags:
   - spieleabend-intern
 ---
 
-Am 23. Februar ist es wieder so weit!
+Am 21. Februar ist es wieder so weit!
 
 Mindestens einmal im Monat treffen wir Spielekünstla uns zum vereinsinternen Spieltreff. Hier erwartet Mitglieder ähnliches wie beim offenen Treffen nur ohne die Gastgebertätigkeiten (Catering, Begrüẞungskommitee, etc.). Entweder bringen wir alle etwas zu Essen mit oder wir bestellen etwas. Absprachen finden meist vorher über Discord statt. Getränke gibt es aber wie sonst auch zu kaufen.
 
