@@ -87,4 +87,4 @@ Mit so vielen Ideen musste auch unser Team wachsen! Wir haben uns Anfang 2025 ge
 <span style="font-size: 20px;">*Rekrutierung und konspirative Planungen für noch mehr Spiel & Spaß*</span>
 
 
-Wir halten wir euch auf dem Laufenden!
+Wir halten euch auf dem Laufenden!
