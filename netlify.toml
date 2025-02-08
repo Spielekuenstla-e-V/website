@@ -6,4 +6,4 @@
   force = true # COMMENT: ensure that we always redirect
 [[redirects]]
   from = "/brettspielwochenende"
-  to = "/20241018_brettspielwochenende"
+  to = "/20251002_brettspielwochenende"
