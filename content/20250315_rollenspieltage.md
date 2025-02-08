@@ -42,13 +42,6 @@ Die Gruppe ist auf dem Weg zu einem Auftrag. Leute sind vor kurzem im Stukenwald
 Ob die Truppe herausfinden kann, was sich in dem Wald verbirgt?
 
 
-## Der Fall der vermissten Tochter (Fantasy-Detektivabenteuer)
-
-> System: Savage Worlds - Personen: 4 - Alter: 12 bis 16 - Dauer: 4h - 6h
-
-Ein Mädchen aus gutem Hause wird vermisst. Das Heilerhaus berichtet von Tierangriffen in der Stadt. Die Heldenakademie ist in Aufruhr. Kann die Stadtwache den Fall lösen, bevor noch mehr Leute zu Schaden kommen?
-
-
 # Angebote für Ältere (16+)
 
 ![Bild mit erwachsenen Abenteuerern am Lagerfeuer](/images/20240316_recken.png)
@@ -78,6 +71,13 @@ Kostümierung gern gesehen.
 > System: DSA - Personen: 6-8 - Alter: ab 16 - Dauer: 6h - 8h
 
 Es wurde schon dunkel am großen Fluss, als wir den “Flussteufel” erreichten. Ganz neu ist diese Kneipe in Ferdok. Wir alle waren durstig und die tolle Stimmung drinnen versprach einen lustigen Abend. Übermütig drängten wir zur Tür rein. Keiner bemerkte die dunklen Gestalten im Hintergrund. Keiner achtete auf Gefahren. Auch du nicht! Und deshalb bist du jetzt mitgefangen, mitgehangen auf diesem verdammten Kahn, mitten auf dem Strom, der ins Verderben zu führen scheint. Noch sind du und deine Gefährten am leb….
+
+
+## Der Fall der vermissten Tochter (Fantasy-Detektivabenteuer)
+
+> System: Savage Worlds - Personen: 3-5 - Alter: ab 16 - Dauer: 4h - 6h
+
+Ein Mädchen aus gutem Hause wird vermisst. Das Heilerhaus berichtet von Tierangriffen in der Stadt. Die Heldenakademie ist in Aufruhr. Kann die Stadtwache den Fall lösen, bevor noch mehr Leute zu Schaden kommen?
 
 
 
