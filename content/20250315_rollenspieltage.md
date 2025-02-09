@@ -68,7 +68,7 @@ Kostümierung gern gesehen.
 
 ## Der Strom des Verderbens (Klassisch Fantasy)
 
-> System: DSA - Personen: 6-8 - Alter: ab 16 - Dauer: 6h - 8h
+> System: DSA - Personen: 3-5 - Alter: ab 16 - Dauer: 6h - 8h
 
 Es wurde schon dunkel am großen Fluss, als wir den “Flussteufel” erreichten. Ganz neu ist diese Kneipe in Ferdok. Wir alle waren durstig und die tolle Stimmung drinnen versprach einen lustigen Abend. Übermütig drängten wir zur Tür rein. Keiner bemerkte die dunklen Gestalten im Hintergrund. Keiner achtete auf Gefahren. Auch du nicht! Und deshalb bist du jetzt mitgefangen, mitgehangen auf diesem verdammten Kahn, mitten auf dem Strom, der ins Verderben zu führen scheint. Noch sind du und deine Gefährten am leb….
 
