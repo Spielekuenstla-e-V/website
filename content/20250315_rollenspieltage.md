@@ -1,7 +1,7 @@
 ---
 title: Gratisrollenspieltage 2025
 image: /images/20240316_rollenspieltage.jpg
-featured: true
+featured: false
 authors:
   - jessi
   - dave
