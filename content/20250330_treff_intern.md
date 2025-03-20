@@ -1,6 +1,6 @@
 ---
 title: Members-Only Spielekünstla-Treff
-image: /images/treff_banner.jpg
+image: /images/20250330_spieletreff.jpg
 featured: false
 authors:
   - jay
