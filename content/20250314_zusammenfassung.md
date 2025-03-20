@@ -1,6 +1,6 @@
 ---
 title: 14.03. Notierkünstla
-image: /images/treff_banner.jpg
+image: /images/20250314_spieletreff.jpg
 featured: true
 authors:
   - mattes
