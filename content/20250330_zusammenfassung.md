@@ -1,6 +1,6 @@
 ---
 title: 30.03. Notierkünstla
-image: /images/treff_banner.jpg
+image: /images/20250330_spieletreff.jpg
 featured: true
 authors:
   - benny
@@ -25,6 +25,10 @@ eine breite Auswahl an Titeln, die für jeden Geschmack etwas bot. Gespielt wurd
 ***Kuzooka***, ***Tidal Blades 2***, ***The Gang***, ***Die Quacksalber von Quedlinburg***, ***Terraforming Mars***,
 ***Trial by Trolley***, ***Unfair – Fiese Freizeitparks***, ***Uprising: Curse of the Last Emperor***, ***Diamant***,
 ***Kingscraft***, ***Maximum Apocalypse***, ***Mietzekatze***, ***Joyride Turbo*** und ***Helden müssen draußen bleiben***.
+
+## Ankündigung: Mafia-Themenabend am 30. April
+Ein besonderes Highlight war die Ankündigung unseres nächsten Events: Am 30. April 2025 findet ein Mafia-Themenabend
+statt! Nähere Details folgen in Kürze über die üblichen Kanäle.
 
 Wir bedanken uns bei allen, die teilgenommen haben, und freuen uns auf das nächste Treffen!
 
