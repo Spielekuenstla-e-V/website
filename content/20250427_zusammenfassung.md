@@ -1,5 +1,5 @@
 ---
-title: 27.04. Frühlingsspieletreff
+title: 27.04. Frühlingsspieletreff mit einigen Spielekünstla-Dauerbrennern
 image: /images/20250427_spieletreff.jpg
 featured: true
 authors:
@@ -11,10 +11,8 @@ tags:
   - spieleabend-intern
 ---
 
-# Frühlingsspieletreff mit einigen Spielekünstla-Dauerbrennern
-
 Am Sonntag, den 27.04.2025 trafen sich 60 Spielekünstla um einen tollen Tag bei frühlingshaftem Wetter in der
-<a href="#bleibe">"Bleibe"</a> zu verbringen. Da war schnell klar, dass die vereinseigenen Bierzeltgarnituren aus dem
+["Bleibe"](#bleibe) zu verbringen. Da war schnell klar, dass die vereinseigenen Bierzeltgarnituren aus dem
 Keller geholt werden um das schöne Wetter zu nutzen und die ein oder andere Partie an der frischen Luft zu spielen.
 Natürlich gab es auch dieses Mal wieder ein reichhaltiges und leckeres Buffet, bei dem es eine große Auswahl an
 Salaten, Broten, Dips und Kuchen gab. An diesem Spieletreff konnte ich einige Spielekünstla-Dauerbrenner auf den
