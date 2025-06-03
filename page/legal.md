@@ -7,6 +7,7 @@ imageMeta:
 featured: false
 authors:
   - jay
+  - jessi
 date: Tue Apr 18 2023 21:27:32 GMT+0100 (IST)
 tags:
 ---
@@ -14,7 +15,8 @@ tags:
 __Kontaktinformationen:__
 
 Spielekünstla e.V.<br>
-Langer Graben 11<br>
+Langer Graben 11 (Vereinssitz)<br>
+Lüerdisser Weg 91 (Veranstaltungsort)<br>
 32657 Lemgo
 
 <a href="mailto:info@spielekuenstla.de">info@spielekuenstla.de</a>
