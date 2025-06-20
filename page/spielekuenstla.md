@@ -38,7 +38,7 @@ Seit dem Herbst 2021 haben sich in Lemgo-Lüerdissen immer mehr Brettspielbegeis
 
   <div>
     <h3>Wie viele?</h3>
-    205 Mitglieda (Stand 04.02.2025)
+    227 Mitglieda (Stand 19.06.2025)
   </div>
 
   <div>
@@ -56,6 +56,9 @@ Seit dem Herbst 2021 haben sich in Lemgo-Lüerdissen immer mehr Brettspielbegeis
       <li><strong>Spielekünstla on Tour 2024</strong> – unser erstes Brettspiel-Wochenende im <a href="https://www.friedrich-blecher-haus.de/">Friedrich Blecher Gästehaus in Horn</a></li>
       <li><strong>Mindbug-Turnier</strong></li>
       <li><strong>Gewinner</strong> des 2. Platzes beim <a href="https://www.kreis-lippe.de/kreis-lippe/aktuelles/meldungen/referat-landrat/ehrenamt/heimatpreis-2024.php">HEIMATPREIS LIPPE</a> <strong>2024</strong></li>
+      <li><strong>Gratis Rollenspieltag 2025</strong></li>
+      <li><strong>Themenabend: Mafia</strong></li>
+      <li><strong>El Paso-Launch Event mit <a href="https://niehaus-lemgo.de/">NIEHAUS Spiel & Freizeit</a>, Lemgo und <a href="https://lookout-spiele.de">LOOKOUT SPIELE</a></strong></li>
     </ul>
 
     Für mehr grundlegende Infos, findest du unsere Satzung <strong><a href="/page/charter">hier</a></strong>.
