@@ -18,7 +18,7 @@ so wurde auch dieser Treff Dank eures Einsatzes wieder zu einem geselligen und g
 
 Alle Tische in der [Bleibe](#bleibe) waren belegt, um in fremde Welten abzutauchen. Und für den dabei auftretenden
 kleinen - oder auch großen - Hunger stand wieder reichlich Verpflegung zur Verfügung. Von der sehr leckeren
-Kuchenauswahl (Möhren-, Fanta- und Apfelkuchen sowie Bananenbrot) über Würstchen und Pommen zu Cous Cous Salat und
+Kuchenauswahl (Möhren-, Fanta- und Apfelkuchen sowie Bananenbrot) über Würstchen und Pommes zu Cous Cous Salat und
 Börek. Verhungern kann man hier jedenfalls nicht.
 
 Und sich langweilen auch nicht. Folgende Spiele habe ich auf den Tischen entdeckt: ***Revive***, ***Cyclades***,
