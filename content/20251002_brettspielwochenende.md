@@ -1,7 +1,7 @@
 ---
 title: Brettspielwochenende
 image: /images/logo_brettspielwochenende_2025.png
-featured: true
+featured: false
 authors:
   - dose
 date: Fri Oct 02 2025 17:00:00 GMT+0100 (IST)
