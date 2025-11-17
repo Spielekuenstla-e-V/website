@@ -972,8 +972,8 @@ Usage (In Ghost editor):
     font-size: 2.9rem;
   }
   .post-full-image {
-    margin-bottom: 4vw;
-    height: 350px;
+    margin-bottom: 8vw;
+    max-height: 350px;
   }
   .post-full-content {
     padding: 0;
@@ -1745,6 +1745,11 @@ Usage (In Ghost editor):
   font-size: 1.25em;
   line-height: 1.5em;
 }
+
+@media (max-width: 500px) {
+  .post-template .post-content > p:first-child {
+    font-size: 1.15em;
+  }
 }
 
 .post-full-content .kg-image {
