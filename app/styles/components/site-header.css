@@ -16,7 +16,7 @@
   left: 0;
   z-index: 10;
   display: block;
-  background: rgba(0,0,0,0.18);
+  background: rgba(0, 0, 0, 0.18);
 }
 
 .site-header:after {
@@ -29,7 +29,7 @@
   z-index: 10;
   display: block;
   height: 80px;
-  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0));
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
 }
 
 .site-header.no-image:before,
@@ -71,7 +71,6 @@
   }
 }
 
-
 .site-description {
   z-index: 10;
   margin: 0;
@@ -84,9 +83,9 @@
 
 @media (max-width: 500px) {
   .site-title {
-      font-size: 3rem;
+    font-size: 3rem;
   }
   .site-description {
-      font-size: 1.8rem;
+    font-size: 1.8rem;
   }
 }
