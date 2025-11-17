@@ -48,7 +48,7 @@
     "ember-cli-sri": "^2.1.1",
     "ember-cli-terser": "^4.0.2",
     "ember-composable-helpers": "^4.5.0",
-    "ember-data": "~4.11.3",
+    "ember-data": "^4.12.8",
     "ember-fetch": "^8.1.2",
     "ember-load-initializers": "^2.1.2",
     "ember-modifier": "^4.1.0",
@@ -58,7 +58,7 @@
     "ember-responsive-image": "^3.4.0",
     "ember-source": "~4.12.0",
     "ember-template-lint": "^5.7.2",
-    "empress-blog": "^4.1.0",
+    "empress-blog": "^5.0.1",
     "empress-blog-ghost-helpers": "^1.2.0",
     "empress-blog-netlify-cms": "^0.0.2",
     "empress-blueprint-helpers": "^1.2.1",
@@ -73,7 +73,7 @@
     "postcss-color-function": "^4.1.0",
     "postcss-custom-properties": "^9.2.0",
     "postcss-easy-import": "^3.0.0",
-    "prember": "^1.1.1",
+    "prember": "^2.1.0",
     "prettier": "^2.8.7",
     "qunit": "^2.19.4",
     "qunit-dom": "^2.0.0",
@@ -94,6 +94,10 @@
     "node": "22.21.1"
   },
   "fastbootDependencies": [
-    "crypto"
-  ]
+    "crypto",
+    "fastboot-abort-controller"
+  ],
+  "dependencies": {
+    "showdown": "^2.1.0"
+  }
 }
