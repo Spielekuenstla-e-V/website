@@ -18,8 +18,7 @@ Wochenende im Friedrich-Blecher-Haus in Horn-Bad Meinberg veranstaltet. Dieses M
 Tag länger, dank Feiertag. Und so vielfältig wie unsere Spiele, sind auch die Eindrücke der einzelnen
 Spielekünstla von unserem Wochenende. Ein paar Eindrücke bekommst du hier von …
 
-**… Sabrina**
-
+## … Sabrina
 Am 02. Oktober war es endlich wieder so weit - jedenfalls für 60 Spielekünstla & Friends. Das
 langersehnte Highlight des Jahres stand vor der Tür. 20 weitere Künstla, mich eingeschlossen, durften
 die Vorfreude noch einen Tag länger genießen. Für uns ging es erst am 03. Oktober um Punkt 14 Uhr
@@ -44,40 +43,46 @@ komplett ausgeklammert werden. Nur die Zeit anhalten ging irgendwie nicht, und s
 Sonntagnachmittag leider wieder viel zu schnell daher. Der nächste Termin ist aber Gott sei Dank
 schon fix und die Vorfreude kann aufs Neue beginnen.
 
-**… Niklas**
-
+## … Niklas
 Am 2. Oktober fand in Horn-Bad Meinberg zum zweiten Mal das Brettspielwochenende statt.
 Zahlreiche Spielekünstla kamen zusammen, um gemeinsam zu spielen, zu fachsimpeln und ein
 entspanntes Wochenende zu verbringen. Niklas hat sich freiwillig für ein Interview gemeldet, um von
 seinen Eindrücken zu berichten.
 
-Frage: Wie hast du das diesjährige Brettspielwochenende erlebt?
-Antwort: Insgesamt war es ein sehr gelungenes Event. Die Atmosphäre war freundlich, offen und
-spielerisch, und es war schön zu sehen, wie viele bekannte Gesichter vom letzten Jahr wieder dabei
-waren. Besonders positiv war die gute Organisation und die angenehme Stimmung während der
-Spielrunden.
+***Wie hast du das diesjährige Brettspielwochenende erlebt?***
 
-Frage: Du lebst seit 2 Jahren vegan. Wie war dein Eindruck vom Essensangebot in diesem Jahr?
-Antwort: Sehr positiv. Im Vergleich zum letzten Jahr hat sich die Auswahl deutlich verbessert. Die
-veganen Alternativen waren abwechslungsreicher und geschmacklich wirklich überzeugend. Zu jeder
-Mahlzeit gab es eine vegane Alternative.
+> **Niklas:** Insgesamt war es ein sehr gelungenes Event. Die Atmosphäre war freundlich, offen und
+  spielerisch, und es war schön zu sehen, wie viele bekannte Gesichter vom letzten Jahr wieder dabei
+  waren. Besonders positiv war die gute Organisation und die angenehme Stimmung während der
+  Spielrunden.
 
-Frage: Welche Spiele hast du am Wochenende gespielt?
-Antwort: Hauptsächlich habe ich Blood on the Clocktower gespielt. Das war für mich definitiv das
-Highlight – jede Runde war anders, spannend und einfach total fesselnd. Am liebsten spiele ich im
-bösen Team, da ich den Nervenkitzel liebe, wenn man kurz davor, ist erwischt zu werden.
 
-Frage: Wirst du nächstes Jahr wieder dabei sein?
-Antwort: Ja, auf jeden Fall! Auch wenn es anstrengend ist und man wenig Schlaf findet, freue ich mich
-auf nächstes Jahr und hoffe auf weitere coole Runden Clocktower. Auch für mich war das
-Spielewochenende wieder ein voller Erfolg und ich freue mich auf das nächste Jahr.
-Antwort: Vielleicht bekomme ich dich nächstes Jahr dazu, auch mal andere Spiele auszuprobieren.
+***Du lebst seit 2 Jahren vegan. Wie war dein Eindruck vom Essensangebot in diesem Jahr?***
 
-**… Julian**
+> **Niklas:** Sehr positiv. Im Vergleich zum letzten Jahr hat sich die Auswahl deutlich verbessert. Die
+  veganen Alternativen waren abwechslungsreicher und geschmacklich wirklich überzeugend. Zu jeder
+  Mahlzeit gab es eine vegane Alternative.
 
+
+***Welche Spiele hast du am Wochenende gespielt?***
+
+> **Niklas:** Hauptsächlich habe ich Blood on the Clocktower gespielt. Das war für mich definitiv das
+  Highlight – jede Runde war anders, spannend und einfach total fesselnd. Am liebsten spiele ich im
+  bösen Team, da ich den Nervenkitzel liebe, wenn man kurz davor, ist erwischt zu werden.
+
+
+***Wirst du nächstes Jahr wieder dabei sein?***
+
+> **Niklas:** Ja, auf jeden Fall! Auch wenn es anstrengend ist und man wenig Schlaf findet, freue ich mich
+  auf nächstes Jahr und hoffe auf weitere coole Runden Clocktower. Auch für mich war das
+  Spielewochenende wieder ein voller Erfolg und ich freue mich auf das nächste Jahr.
+  Antwort: Vielleicht bekomme ich dich nächstes Jahr dazu, auch mal andere Spiele auszuprobieren.
+
+
+## … Julian
 Brettspielwochenenden sind für mich immer eins: Spielzeit (mit tollen Menschen und epischen
 Spielen). Günstiger kann die Gelegenheit ja nicht sein, größere Eventspiele auf den Tisch zu kriegen…
-oder? Das „Spielekünstla on Tour“ - Wochenende darf da natürlich nicht ausgelassen werden. Ich
+oder? Das **„Spielekünstla on Tour“** - Wochenende darf da natürlich nicht ausgelassen werden. Ich
 nehme mir hier immer das Ziel (mit einem Augenzwinkern) kein Spiel kürzer als 2h zu spielen, was
 oftmals verwunderte Blicke mit sich bringt. Meist sind meine Spiele ja etwas „special interest“ und
 daher freue ich mich umso mehr, wenn sich Mitspieler für die mitgebrachten Perlen finden. So hab
