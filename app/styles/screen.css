@@ -62,10 +62,12 @@ production stylesheet in assets/built/screen.css
 .outer {
   position: relative;
   padding: 0 2vw;
+  margin: 0 2vw;
 }
 @media (min-width: 800px) {
   .outer {
     padding: 0 4vw;
+    margin: 0;
   }
 }
 
