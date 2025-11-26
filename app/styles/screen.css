@@ -61,7 +61,12 @@ production stylesheet in assets/built/screen.css
 /* Full width page blocks */
 .outer {
   position: relative;
-  padding: 0 4vw;
+  padding: 0 2vw;
+}
+@media (min-width: 800px) {
+  .outer {
+    padding: 0 4vw;
+  }
 }
 
 /* Centered content container blocks */
@@ -622,17 +627,21 @@ make sure this only happens on large viewports / desktop-ish devices.
 .post-full-content {
   position: relative;
   margin: 0 auto;
-  padding: 70px 100px 0;
+  padding: 4vw 4vw 0;
   min-height: 230px;
   font-family: Georgia, serif;
   font-size: 2.2rem;
   line-height: 1.6em;
   background: #fff;
 }
-
-@media (max-width: 1170px) {
+@media (min-width: 800px) {
   .post-full-content {
     padding: 5vw 7vw 0;
+  }
+}
+@media (min-width: 1170px) {
+  .post-full-content {
+    padding: 70px 100px 0;
   }
 }
 @media (max-width: 800px) {
@@ -1742,13 +1751,13 @@ Usage (In Ghost editor):
 }
 
 .post-template .post-content > p:first-child {
-  font-size: 1.25em;
+  font-size: 1em;
   line-height: 1.5em;
 }
 
-@media (max-width: 500px) {
+@media (min-width: 800px) {
   .post-template .post-content > p:first-child {
-    font-size: 1.15em;
+    font-size: 1.25em;
   }
 }
 
