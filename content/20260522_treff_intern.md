@@ -4,15 +4,15 @@ image: /images/treff_banner.jpg
 featured: false
 authors:
   - jay
-date: Sun May 24 2026 14:00:00 GMT+0100 (IST)
+date: Fri May 22 2026 17:00:00 GMT+0100 (IST)
 meta:
   event: Vereinsinterner Spieletreff
-  startTime: 14 Uhr
+  startTime: 17 Uhr
 tags:
   - spieleabend-intern
 ---
 
-Am 24. Mai ist es wieder so weit!
+Am 22. Mai ist es wieder so weit!
 
 Mindestens einmal im Monat treffen wir Spielekünstla uns zum vereinsinternen Spieltreff in der
 ***["Bleibe"](#bleibe)***. Hier erwartet Mitglieder ähnliches wie beim offenen Treffen nur ohne die
