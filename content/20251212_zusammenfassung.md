@@ -35,6 +35,14 @@ Um 4 Uhr nachts beendete die Nachtschicht den Treff und fuhr nach Hause. Der Spi
 gelungen und läutet die stressigen und dennoch schönen anstehenden Weihnachtstage ein.
 
 
+## Nachtrag:
+**Die Ausstrahlung selbst und ein Kommentar im Radio können unter folgenden Links gefunden werden**:
+
+TV: **WDR OWL Lokalzeit** vom *17.12.25*: [https://www1.wdr.de/lokalzeit/fernsehen/ostwestfalen-lippe/brettspielverein-lemgo-hat-ueber-250-mitglieder-100.html](https://www1.wdr.de/lokalzeit/fernsehen/ostwestfalen-lippe/brettspielverein-lemgo-hat-ueber-250-mitglieder-100.html)
+
+Radio: **WDR 5 Westblick** vom *05.01.2026*: [https://www1.wdr.de/mediathek/audio/wdr5/wdr5-westblick-aktuell/audio-der-brettspielverein-in-lemgo-100.html](https://www1.wdr.de/mediathek/audio/wdr5/wdr5-westblick-aktuell/audio-der-brettspielverein-in-lemgo-100.html)
+
+
 
 <p id="bleibe">
   <br>
