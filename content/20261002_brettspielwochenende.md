@@ -49,8 +49,8 @@ Cafeteria mit permanent kostenlosem Saft und Wasserspender, Kaffeeautomat (Münz
 ## Kosten
 Wir sind ein gemeinnütziger Verein und haben versucht, die Kosten so gering wie möglich zu kalkulieren, es gibt keine Gewinnabsicht. Leider müssen wir wegen der jährlichen Preisanpassung des FBH auch die Teilnahmekosten etwas angleichen:
 
-Erwachsene:     155€ p.P. 
-Minderjährige:  110€ p.P. (nur in Begleitung eines Erziehungsberechtigten bzw. einer Aufsichtsperson)
+Erwachsene:     **155€ p.P.**
+Minderjährige:  **110€ p.P.** (nur in Begleitung eines Erziehungsberechtigten bzw. einer Aufsichtsperson)
 Optionen:
 - Kaffee/Kuchen (+5€ je Tag),
 - Bettwäsche (+10€),
@@ -59,7 +59,7 @@ Optionen:
 
 ## Zahlung
 Erst das Anmeldeformular (Link oben) benutzen, dann das Geld schicken:
-**Paypal** an info@spielekuenstla.de *(Bitte unbedingt "an Freunde oder Familie" senden, sonst entstehen uns mehr als 5€ Kosten je Zahlung die wir dann wieder von euch nachfordern müssten)*
+**Paypal** an info@spielekuenstla.de ***(Bitte unbedingt "an Freunde oder Familie" senden, sonst entstehen uns mehr als 5€ Kosten je Zahlung die wir dann wieder von euch nachfordern müssten)***
 <br>
 oder
 <br>
