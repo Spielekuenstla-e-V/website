@@ -4,7 +4,7 @@ image: /images/sot2026.png
 featured: false
 authors:
   - dose
-date: Fri Oct 23 2025 17:00:00 GMT+0100 (IST)
+date: Fri Oct 23 2026 17:00:00 GMT+0100 (IST)
 meta:
   event: Brettspielwochenende
   startTime: 17 Uhr
