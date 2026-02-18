@@ -29,36 +29,34 @@ Der Startschuss für die Anmeldung ist zusammen mit der Ankündigung beim nächs
 **====>>>>   [Anmeldeformular](https://tally.so/r/zxDY5E)   <<<<====**
 
 ## Location
-Friedrich Blecher Haus
-Bockstal 2
+Friedrich Blecher Haus<br>
+Bockstal 2<br>
 32805 Horn-Bad Meinberg
 
-Anreise ist möglich per PKW, Bahn (Bhf Horn, RE72) oder Bus (Linie 782). Wir können euch auf Anfrage gerne vom Bahnhof abholen!
+Anreise ist möglich per PKW,  Bahn (Bhf Horn, RE72) oder Bus (Linie 782). Wir können euch auf Anfrage gerne vom Bahnhof abholen!
 
 ## Allgemeines
-Zeitraum: 23.10.2025 17 Uhr bis 25.10.2025 ca. 16 Uhr
-Unterbringung: bis zu 82 Betten in 24 Zimmern, davon 17 Zimmer mit eigener Dusche/WC
-Platz zum Spielen: 4 Gruppenräume mit unterschiedlichen Schwerpunkten, Speisesaal und Kaminzimmer außerhalb der Essenzeiten und Abends,  Grillhütte und Lagerfeuerrunde (bei gutem Wetter)
-Sonstiges: Freies WLAN, Lagerfeuerstelle, Grillhütte, Spielplatz, Seilbahn, Tischtennisplatte, Boulderwand, Externsteine
+- Zeitraum: 23.10.2025 17 Uhr bis 25.10.2025 ca. 16 Uhr
+- Unterbringung: bis zu 82 Betten in 24 Zimmern, davon 17 Zimmer mit eigener Dusche/WC
+- Platz zum Spielen: 4 Gruppenräume mit unterschiedlichen Schwerpunkten, Speisesaal und Kaminzimmer außerhalb der Essenzeiten und Abends,  Grillhütte und Lagerfeuerrunde (bei gutem Wetter)
+- Sonstiges: Freies WLAN, Lagerfeuerstelle, Grillhütte, Spielplatz, Seilbahn, Tischtennisplatte, Boulderwand, Externsteine
 
 ## Verpflegung
-Vollverpflegung mit Frühstück, Mittagessen und Abendessen (Rücksicht auf Unverträglichkeiten, Vegetarisch möglich)
-Optional: Kaffee und Kuchen für Samstagnachmittag
-Cafeteria mit permanent kostenlosem Saft und Wasserspender, Kaffeeautomat (Münzen) und Getränken zu sehr fairen Preisen
+- Vollverpflegung mit Frühstück, Mittagessen und Abendessen (Rücksicht auf Unverträglichkeiten, Vegetarisch möglich)
+- Optional: Kaffee und Kuchen für Samstagnachmittag
+- Cafeteria mit permanent kostenlosem Saft und Wasserspender, Kaffeeautomat (Münzen) und Getränken zu sehr fairen Preisen
 
 ## Kosten
 Wir sind ein gemeinnütziger Verein und haben versucht, die Kosten so gering wie möglich zu kalkulieren, es gibt keine Gewinnabsicht. Leider müssen wir wegen der jährlichen Preisanpassung des FBH auch die Teilnahmekosten etwas angleichen:
-
-Erwachsene:     **155€ p.P.**
-Minderjährige:  **110€ p.P.** (nur in Begleitung eines Erziehungsberechtigten bzw. einer Aufsichtsperson)
+Erwachsene:     **155€ p.P.**<br>
+Minderjährige:  **110€ p.P.** (nur in Begleitung eines Erziehungsberechtigten bzw. einer Aufsichtsperson)<br>
 Optionen:
 - Kaffee/Kuchen (+5€ je Tag),
 - Bettwäsche (+10€),
-- Bettwäsche+Handtücher (+13€)
-(bitte dreiteilige Bettwäsche mitbringen, aus hygienischen Gründen keine Schlafsäcke )
+- Bettwäsche+Handtücher (+13€) (bitte dreiteilige Bettwäsche mitbringen, aus hygienischen Gründen keine Schlafsäcke )
 
 ## Zahlung
-Erst das Anmeldeformular (Link oben) benutzen, dann das Geld schicken:
+Erst das Anmeldeformular (Link oben) benutzen, dann das Geld schicken:<br>
 **Paypal** an info@spielekuenstla.de ***(Bitte unbedingt "an Freunde oder Familie" senden, sonst entstehen uns mehr als 5€ Kosten je Zahlung die wir dann wieder von euch nachfordern müssten)***
 <br>
 oder
