@@ -48,8 +48,8 @@ Anreise ist möglich per PKW,  Bahn (Bhf Horn, RE72) oder Bus (Linie 782). Wir k
 
 ## Kosten
 Wir sind ein gemeinnütziger Verein und haben versucht, die Kosten so gering wie möglich zu kalkulieren, es gibt keine Gewinnabsicht. Leider müssen wir wegen der jährlichen Preisanpassung des FBH auch die Teilnahmekosten etwas angleichen:
-Erwachsene:     **155€ p.P.**<br>
-Minderjährige:  **110€ p.P.** (nur in Begleitung eines Erziehungsberechtigten bzw. einer Aufsichtsperson)<br>
+Erwachsene:     **150€ p.P.**<br>
+Minderjährige:  **105€ p.P.** (nur in Begleitung eines Erziehungsberechtigten bzw. einer Aufsichtsperson)<br>
 Optionen:
 - Kaffee/Kuchen (+5€ je Tag),
 - Bettwäsche (+10€),
