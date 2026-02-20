@@ -54,9 +54,11 @@ Bevor die Reisenden den beschwerlichen Weg über den Greifenpass antreten, mache
 Hier geht es hoch her, kaum kann man sein eigenes Wort verstehen. Doch da fliegt die Tür auf und der tyrannische Herrscher der Provinz Baldur Greifax, gefolgt von seinen Getreuen, tritt ein. Die ausgelassene Stimmung ist wie weggeblasen, Furcht und Schrecken beherrscht die Szene. In diesem Augenblick beginnt für einige der Reisenden ein Wettlauf um Leben und Tod. Durch ihre Begegnung mit Baldur geraten sie in ein unheimliches Abenteuer…
 
 
-## Unbesungene Helden (Düstere Fantasy)
+## Aufruhr in Ünersreik (Düstere Fantasy)
 
 > System: Warhammer Fantasy - Personen: 4 - Alter: ab 16 - Dauer: ~6h
+
+Während die Charaktere den Markt von Übersreik genießen, geraten sie in einen Aufruhr und werden später beschuldigt, ihn angezettelt zu haben. Auf mysteriöse Weise greift eine örtliche Advokatin ein und überredet den für den Fall zuständigen Richter, die Charaktere für die Stadtwache einzuziehen, damit sie ihre „Schuld" dort abarbeiten.
 
 Mach dich bereit, eine grimme Welt voller gefährlicher Abenteuer zu betreten! Dies ist eine Welt der unbesungenen Helden und des flüchtigen Ruhmes.
 
