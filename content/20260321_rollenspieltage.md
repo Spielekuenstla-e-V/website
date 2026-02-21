@@ -1,7 +1,7 @@
 ---
 title: Gratisrollenspieltage 2026
 image: /images/20260321_rollenspieltage.png
-featured: false
+featured: true
 authors:
   - jessi
   - dave
@@ -26,9 +26,9 @@ Ihr fragt euch was dieses Rollenspiel eigentlich ist? Kein Problem! [Hier findet
 
 
 
-# Angebote für junge Helden
+# Unsere Angebote
 
-![Bild mit jungen Menschen am Lagerfeuer](/images/20240316_junge_helden.png)
+![Bild mit erwachsenen Abenteuerern am Lagerfeuer](/images/20240316_recken.png)
 
 
 ## Dortmund Sommer 2082 (Cyberpunk trifft Fantasy)
@@ -38,12 +38,6 @@ Ihr fragt euch was dieses Rollenspiel eigentlich ist? Kein Problem! [Hier findet
 Megakonzerne regieren aus dem Schatten, Magie ist in die Welt zurückgekehrt, und die Straßen gehören denen, die bereit sind, alles zu riskieren.
 
 Shadowrun verbindet Cyberpunk und Fantasy: Chrome trifft Zauber, Hacker:innen arbeiten mit Schamanen, und jede Entscheidung hat ihren Preis. Du bist ein Runner – illegal, anonym, austauschbar. Der Job ist einfach. Zu überleben ist die eigentliche Herausforderung.
-
-
-
-# Angebote für Ältere (16+)
-
-![Bild mit erwachsenen Abenteuerern am Lagerfeuer](/images/20240316_recken.png)
 
 
 ## Im Wirtshaus zum Schwarzen Keiler (Klassisch Fantasy)
