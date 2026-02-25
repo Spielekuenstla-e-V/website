@@ -36,7 +36,7 @@ Bockstal 2<br>
 Anreise ist möglich per PKW,  Bahn (Bhf Horn, RE72) oder Bus (Linie 782). Wir können euch auf Anfrage gerne vom Bahnhof abholen!
 
 ## Allgemeines
-- Zeitraum: 23.10.2025 17 Uhr bis 25.10.2025 ca. 16 Uhr
+- Zeitraum: 23.10.2026 17 Uhr bis 25.10.2026 ca. 16 Uhr
 - Unterbringung: bis zu 82 Betten in 24 Zimmern, davon 17 Zimmer mit eigener Dusche/WC
 - Platz zum Spielen: 4 Gruppenräume mit unterschiedlichen Schwerpunkten, Speisesaal und Kaminzimmer außerhalb der Essenzeiten und Abends,  Grillhütte und Lagerfeuerrunde (bei gutem Wetter)
 - Sonstiges: Freies WLAN, Lagerfeuerstelle, Grillhütte, Spielplatz, Seilbahn, Tischtennisplatte, Boulderwand, Externsteine
@@ -62,7 +62,7 @@ Erst das Anmeldeformular (Link oben) benutzen, dann das Geld schicken:<br>
 oder
 <br>
 **Überweisung** an das Spielekünstla e.V. Vereinskonto (IBAN DE51 4825 0110 0004 0825 66) bei der Sparkasse Lemgo.
-Betreff: SOT2025 Vorname Nachname
+Betreff: SOT2026 Vorname Nachname
 Achtung: Die Anmeldung ist erst vollständig und gültig nach Zahlungseingang, vorher keine Reservierung.
 
 ## Sonstiges
