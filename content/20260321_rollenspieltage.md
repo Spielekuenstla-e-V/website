@@ -1,7 +1,7 @@
 ---
 title: Gratisrollenspieltage 2026
 image: /images/20260321_rollenspieltage.png
-featured: true
+featured: false
 authors:
   - jessi
   - dave
