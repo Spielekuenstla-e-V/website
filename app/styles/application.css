@@ -1,3 +1,5 @@
+/* stylelint-disable no-descending-specificity -- rules are grouped by concern (header/footer/content), not by selector specificity */
+
 /* Shared application styles.
    Consolidated here because these classes are used across multiple page
    templates (the static "post-full" page layout + site header). Flattened from
@@ -111,6 +113,12 @@ ul {
 /* Layout containers
 /* ---------------------------------------------------------- */
 
+.site-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .site-main {
   z-index: 100;
   flex-grow: 1;
@@ -172,6 +180,92 @@ ul {
   .site-title {
     font-size: 3rem;
   }
+}
+
+/* Site navigation (global header bar)
+/* ---------------------------------------------------------- */
+
+.site-nav-header {
+  position: relative;
+  z-index: 300;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: var(--primary);
+}
+
+.site-nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  font-size: 1.3rem;
+}
+
+.site-nav-left {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.site-nav-logo {
+  flex-shrink: 0;
+  margin-right: 24px;
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+}
+
+.site-nav-logo:hover {
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav li {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.nav li a {
+  display: block;
+  margin: 0;
+  padding: 10px 12px;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.nav li a:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+
+.social-links {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.social-link:hover {
+  opacity: 1;
 }
 
 /* Page / single-post layout
@@ -440,5 +534,58 @@ ul {
 
   .post-full-content h3 {
     font-size: 2.2rem;
+  }
+}
+
+/* Site footer
+/* ---------------------------------------------------------- */
+
+.site-footer {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  color: #fff;
+  background: #0b0c0d;
+}
+
+.site-footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: rgb(255 255 255 / 70%);
+  font-size: 1.3rem;
+}
+
+.site-footer-content a {
+  color: rgb(255 255 255 / 70%);
+  fill: rgb(255 255 255 / 70%);
+}
+
+.site-footer-content a:hover {
+  color: rgb(255 255 255 / 100%);
+  fill: rgb(255 255 255 / 100%);
+  text-decoration: none;
+}
+
+.site-footer-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-link-list {
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none;
+  font-size: medium;
+}
+
+.nav-link-list li {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+@media (width <= 650px) {
+  .site-footer-content {
+    flex-direction: column;
   }
 }
