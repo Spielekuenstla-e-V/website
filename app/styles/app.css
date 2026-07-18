@@ -1,7 +1,5 @@
-@import "./global";
-@import "./screen";
-@import "./components/site-header";
-@import "./components/social-link";
-@import "./components/site-footer";
-@import "./components/nav-link-list";
-@import "./components/border-box";
+/* Global app stylesheet placeholder.
+   The homepage styles live in ./index.css and are imported from app/app.js so
+   that Vite processes and bundles them. This file is emitted verbatim by
+   Embroider as /@embroider/virtual/app.css and is intentionally kept empty
+   for now. */

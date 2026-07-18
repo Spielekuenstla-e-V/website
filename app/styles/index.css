@@ -1,0 +1,363 @@
+/* Flat homepage stylesheet.
+   Assembled from the former empress-blog global.css + the Ghost/Casper
+   screen.css (Layout + Post Feed sections). PostCSS color() calls from the
+   originals have been replaced with static values, since that PostCSS plugin
+   is no longer part of the Vite build. Header/footer/nav styles are omitted
+   for now. */
+
+/* Variables
+/* ---------------------------------------------------------- */
+
+:root {
+  --blue: #3eb0ef;
+  --green: #a4d037;
+  --purple: #ad26b4;
+  --yellow: #fecd35;
+  --red: #f05230;
+  --darkgrey: #15171a;
+  --midgrey: #738a94;
+  --lightgrey: #c5d2d9;
+  --whitegrey: #e5eff5;
+  --pink: #fa3a57;
+  --brown: #a3821a;
+  --primary: #1f3952;
+  --main-background: #f4f8fb;
+}
+
+/* Reset / base
+/* ---------------------------------------------------------- */
+
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: sans-serif;
+  font-size: 62.5%;
+
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  color: #38454d;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.6em;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-rendering: optimizelegibility;
+  background: var(--main-background);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+  border: 0;
+  vertical-align: middle;
+}
+
+a {
+  color: #1993e0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  line-height: 1.15;
+  font-weight: 700;
+  text-rendering: optimizelegibility;
+}
+
+h2 {
+  margin: 0 0 0.5em;
+  font-size: 2rem;
+}
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+
+p {
+  margin: 0 0 1.5em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Layout
+/* ---------------------------------------------------------- */
+
+.site-main {
+  z-index: 100;
+  flex-grow: 1;
+}
+
+/* Full width page blocks */
+.outer {
+  position: relative;
+  padding: 0 2vw;
+  margin: 0 2vw;
+}
+
+@media (min-width: 800px) {
+  .outer {
+    padding: 0 4vw;
+    margin: 0;
+  }
+}
+
+/* Centered content container blocks */
+.inner {
+  margin: 0 auto;
+  max-width: 1040px;
+  width: 100%;
+}
+
+/* Post Feed
+/* ---------------------------------------------------------- */
+
+.post-feed {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -20px;
+  padding: 40px 0 0;
+}
+
+.post-card {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 0 20px 40px;
+  min-height: 300px;
+  background: #fff center center;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow:
+    rgba(39, 44, 49, 0.06) 8px 14px 38px,
+    rgba(39, 44, 49, 0.03) 1px 3px 8px;
+  transition: all 0.5s ease;
+}
+
+.post-card:hover {
+  box-shadow:
+    rgba(39, 44, 49, 0.07) 8px 28px 50px,
+    rgba(39, 44, 49, 0.04) 1px 6px 12px;
+  transition: all 0.4s ease;
+  transform: translate3d(0, -1px, 0) scale(1.02);
+}
+
+.post-card-image-link {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
+}
+
+.post-card-image {
+  width: 100%;
+  height: 200px;
+  background: var(--lightgrey) no-repeat center center;
+  object-fit: cover;
+}
+
+.post-card-content-link {
+  position: relative;
+  flex-grow: 1;
+  display: block;
+  padding: 25px 25px 0;
+  color: var(--darkgrey);
+}
+
+.post-card-content-link:hover {
+  text-decoration: none;
+}
+
+.post-card-tags {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--midgrey);
+  font-size: 1.2rem;
+  line-height: 1.15em;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.post-card-title {
+  margin-top: 0;
+}
+
+.post-card-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.post-card-excerpt {
+  font-family: Georgia, serif;
+}
+
+.post-card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 25px 25px;
+}
+
+.author-profile-image,
+.avatar-wrapper {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #cfdae0;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.avatar-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: var(--primary);
+  background-color: var(--whitegrey);
+  text-transform: uppercase;
+}
+
+.author-list {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.author-list-item {
+  position: relative;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.static-avatar {
+  display: block;
+  overflow: hidden;
+  margin: 0 -5px;
+  width: 34px;
+  height: 34px;
+  border: #fff 2px solid;
+  border-radius: 100%;
+}
+
+.author-name-tooltip {
+  position: absolute;
+  bottom: 105%;
+  z-index: 999;
+  display: block;
+  padding: 2px 8px;
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 0.2px;
+  white-space: nowrap;
+  background: var(--darkgrey);
+  border-radius: 3px;
+  box-shadow:
+    rgba(39, 44, 49, 0.08) 0 12px 26px,
+    rgba(39, 44, 49, 0.03) 1px 3px 8px;
+  opacity: 0;
+  transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+  transform: translateY(6px);
+  pointer-events: none;
+}
+
+.author-list-item:hover .author-name-tooltip {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 650px) {
+  .author-name-tooltip {
+    display: none;
+  }
+}
+
+/* Home page grid: emphasise the first card on large viewports. */
+@media (min-width: 795px) {
+  .post-card-large {
+    flex: 1 1 100%;
+    flex-direction: row;
+  }
+
+  .post-card-large .post-card-image-link {
+    position: relative;
+    flex: 1 1 auto;
+    border-radius: 5px 0 0 5px;
+  }
+
+  .post-card-large .post-card-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .post-card-large .post-card-content {
+    flex: 0 1 357px;
+  }
+
+  .post-card-large h2 {
+    font-size: 2.6rem;
+  }
+
+  .post-card-large p {
+    font-size: 1.8rem;
+    line-height: 1.55em;
+  }
+
+  .post-card-large .post-card-content-link {
+    padding: 30px 40px 0;
+  }
+
+  .post-card-large .post-card-meta {
+    padding: 0 40px 30px;
+  }
+}
+
+@media (max-width: 650px) {
+  .post-feed {
+    padding-top: 5vw;
+  }
+
+  .post-card {
+    margin: 0 20px 5vw;
+  }
+}
