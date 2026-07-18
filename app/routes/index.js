@@ -5,6 +5,9 @@ export default class IndexRoute extends Route {
   @service content;
 
   model() {
-    return this.content.featuredPosts;
+    return {
+      featuredPosts: this.content.featuredPosts,
+      events: this.content.upcomingEvents(5),
+    };
   }
 }

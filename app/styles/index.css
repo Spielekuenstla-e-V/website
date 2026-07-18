@@ -140,6 +140,34 @@ ul {
   width: 100%;
 }
 
+/* Event list ("Nächste Termine")
+/* ---------------------------------------------------------- */
+
+#event-list {
+  margin: 0 0 1.5em;
+  padding: 0;
+  list-style: none;
+}
+
+#event-list li {
+  margin: 0.5em 0;
+  line-height: 1.6em;
+}
+
+#event-list a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.calendar-add-icon {
+  width: 1em;
+  height: 1em;
+  fill: currentcolor;
+}
+
 /* Post Feed
 /* ---------------------------------------------------------- */
 

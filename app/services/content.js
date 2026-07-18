@@ -1,10 +1,72 @@
 import Service from '@ember/service';
+import { DateTime } from 'luxon';
 import {
   posts as rawPosts,
   authors as rawAuthors,
   pages as rawPages,
   tags as rawTags,
 } from 'virtual:content';
+
+const DEFAULT_START_TIME = '17 Uhr';
+const DEFAULT_END_TIME = '23 Uhr';
+const DEFAULT_EVENT_NAME = 'Spieletreff';
+const DEFAULT_ICS_LOCATION =
+  'Lüerdissen "Bleibe", Lüerdisser Weg 91, 32657 Lemgo';
+const DEFAULT_LOCATION = 'Lüerdissen "Bleibe"';
+
+/**
+ * Build a `data:text/calendar` URL for a single event. Ported verbatim (only
+ * reformatted) from the pre-Vite index controller on `master`. The resulting
+ * href is used as a downloadable `.ics` file in the "Nächste Termine" list.
+ */
+function generateICalendarAttributes({
+  name,
+  startDate,
+  endDate,
+  currentDate,
+  description,
+  location,
+  url,
+}) {
+  return encodeURI(
+    `data:text/calendar;charset=utf8,BEGIN:VCALENDAR
+    VERSION:2.0
+    PRODID:-//spielekuenstla.de//Calendar 1.0//EN
+    CALSCALE:GREGORIAN
+    BEGIN:VTIMEZONE
+    TZID:Europe/Berlin
+    LAST-MODIFIED:20230407T050750Z
+    TZURL:https://www.tzurl.org/zoneinfo-outlook/Europe/Berlin
+    X-LIC-LOCATION:Europe/Berlin
+    BEGIN:DAYLIGHT
+    TZNAME:CEST
+    TZOFFSETFROM:+0100
+    TZOFFSETTO:+0200
+    DTSTART:19700329T020000
+    RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+    END:DAYLIGHT
+    BEGIN:STANDARD
+    TZNAME:CET
+    TZOFFSETFROM:+0200
+    TZOFFSETTO:+0100
+    DTSTART:19701025T030000
+    RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+    END:STANDARD
+    END:VTIMEZONE
+    BEGIN:VEVENT
+    DTSTAMP:${currentDate.toFormat('yyyyMMdd')}T${currentDate.toFormat('HHmmss')}Z,
+    UID:${url},
+    DTSTART;TZID=Europe/Berlin:${startDate.toFormat('yyyyMMdd')}T${startDate.toFormat('HHmmss')}
+    DTEND;TZID=Europe/Berlin:${endDate.toFormat('yyyyMMdd')}T${endDate.toFormat('HHmmss')}
+    SUMMARY:${name},
+    DESCRIPTION:${(description ?? '').replace(/,/g, '\\,')},
+    LOCATION:${location.replace(/,/g, '\\,')}
+    URL:${url},
+    END:VEVENT
+    END:VCALENDAR
+  `.replace(/ {2}/g, ''),
+  );
+}
 
 /**
  * Read-only content layer backed by the `virtual:content` Vite module
@@ -103,5 +165,71 @@ export default class ContentService extends Service {
     return this.#posts.filter((post) =>
       post.tags.some((tag) => tag.slug === slug),
     );
+  }
+
+  /**
+   * The next `limit` upcoming events (default 3), as view-models for the
+   * "Nächste Termine" list. Ported from the pre-Vite index controller:
+   *
+   *  - posts stay listed until the day after their date has passed,
+   *  - recaps (`meta.event === 'Zusammenfassung'`) are excluded,
+   *  - each entry carries a downloadable `.ics` data URL.
+   *
+   * `now` is injectable so tests can pin "today".
+   */
+  upcomingEvents(limit = 3, now = new Date()) {
+    const currentDate = DateTime.fromJSDate(now);
+    const ascending = [...this.#posts].sort((a, b) => a.date - b.date);
+
+    return ascending.reduce((events, post) => {
+      if (events.length >= limit || !post.date) {
+        return events;
+      }
+
+      const linkRemovalDate = DateTime.fromJSDate(post.date)
+        .set({ hour: 0, minute: 0, second: 0 })
+        .plus({ days: 1 });
+
+      const isUpcoming = currentDate.toMillis() <= linkRemovalDate.toMillis();
+      const isRecap = post.meta?.event === 'Zusammenfassung';
+
+      if (!isUpcoming || isRecap) {
+        return events;
+      }
+
+      const startTime = post.meta?.startTime ?? DEFAULT_START_TIME;
+      const endTime = post.meta?.endTime ? ` - ${post.meta.endTime}` : '';
+      const name = post.meta?.event ?? DEFAULT_EVENT_NAME;
+
+      const [endHour, endMinute] = (post.meta?.endTime ?? DEFAULT_END_TIME)
+        .split(' ')[0]
+        .split(':');
+      const endDateTimeObject = endMinute
+        ? { hour: Number(endHour), minute: Number(endMinute) }
+        : { hour: Number(endHour) };
+
+      const postDate = DateTime.fromJSDate(post.date);
+      const icsLink = generateICalendarAttributes({
+        name,
+        startDate: postDate,
+        endDate: postDate.set(endDateTimeObject),
+        currentDate,
+        description: post.primaryTag?.content,
+        location: post.meta?.location ?? DEFAULT_ICS_LOCATION,
+        url: `/${post.id}`,
+      });
+
+      events.push({
+        id: post.id,
+        date: postDate.setLocale('de').toFormat('EEEE, dd.MM.'),
+        name,
+        location: post.meta?.location ?? DEFAULT_LOCATION,
+        time: `${startTime}${endTime}`,
+        icsTitle: encodeURI(name),
+        icsLink,
+      });
+
+      return events;
+    }, []);
   }
 }
