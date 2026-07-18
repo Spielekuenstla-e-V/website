@@ -1,4 +1,4 @@
-import EmberRouter from '@ember/routing/router';
+import EmberRouter from '@embroider/router';
 import config from 'spielekuenstla-website/config/environment';
 
 export default class Router extends EmberRouter {
@@ -6,6 +6,4 @@ export default class Router extends EmberRouter {
   rootURL = config.rootURL;
 }
 
-Router.map(function () {
-  this.route('legal');
-});
+Router.map(function () {});

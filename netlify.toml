@@ -1,3 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "24"
+
 ## This rule redirects to an external API, signing requests with a secret
 [[redirects]]
   from = "/dieliste"
@@ -7,3 +14,12 @@
 [[redirects]]
   from = "/brettspielwochenende"
   to = "/20261023_brettspielwochenende"
+
+## SPA fallback: let the Ember (history) router handle client-side routes.
+## NOTE: prember/empress static prerendering was removed during the Vite
+## migration, so every route is now served from the SPA shell until static
+## generation is reimplemented as a Vite plugin.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
