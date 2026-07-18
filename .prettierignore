@@ -14,6 +14,3 @@ ember-cli-update.json
 
 # content (authored markdown, not code)
 /content/
-/author/
-/page/
-/tag/
