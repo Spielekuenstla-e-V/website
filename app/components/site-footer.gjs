@@ -3,13 +3,10 @@ import { LinkTo } from '@ember/routing';
 // Site footer. Flattened from the former empress-blog application.hbs footer.
 // The INFO column links to the restored page routes; the "Angebote" (events)
 // link — which was commented out on master — is now wired up since that page
-// has been restored.
-//
-// MISSING / EMPTY LINKS (left empty for now, reported to the user):
-//   * Facebook — never configured on master (blog.facebook was unset)
-//   * Twitter/X — never configured on master (blog.twitter was unset)
-// The email subscribe form and RSS feed from the original theme are dropped
-// (no mailing list / feed backend yet).
+// has been restored. Social links reproduce those configured on master
+// (Spielend für Toleranz, Discord, Instagram). The email subscribe form and
+// RSS feed from the original theme are dropped (no mailing list / feed backend
+// yet).
 
 function currentYear() {
   return new Date().getFullYear();

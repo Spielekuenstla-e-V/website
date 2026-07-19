@@ -50,19 +50,24 @@ module('Application | site chrome', function (hooks) {
     }
   });
 
-  test('missing social links are present but empty', async function (assert) {
+  test('footer social links only include configured networks', async function (assert) {
     await visit('/');
 
-    const empties = [
+    const links = [
       ...document.querySelectorAll(
         '.site-footer-nav[aria-label="Social Media"] a',
       ),
-    ].filter((a) => a.getAttribute('href') === '');
+    ];
 
-    assert.strictEqual(
-      empties.length,
-      2,
-      'Facebook and Twitter are placeholders with empty href',
+    assert.ok(
+      links.every((a) => (a.getAttribute('href') ?? '') !== ''),
+      'no empty placeholder links remain',
     );
+    assert
+      .dom('.site-footer-nav[aria-label="Social Media"]')
+      .doesNotContainText('Facebook', 'Facebook link removed');
+    assert
+      .dom('.site-footer-nav[aria-label="Social Media"]')
+      .doesNotContainText('Twitter', 'Twitter link removed');
   });
 });
