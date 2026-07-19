@@ -9,4 +9,7 @@ export default class Router extends EmberRouter {
 Router.map(function () {
   // Static content pages live under /page/:page_id (empress-blog URL scheme).
   this.route('page', { path: '/page/:page_id' });
+  // Blog posts live at the root, e.g. /20230811_treff (empress-blog URL scheme).
+  // Declared last so the more specific routes above take precedence.
+  this.route('post', { path: '/:post_id' });
 });

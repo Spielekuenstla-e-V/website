@@ -1,4 +1,5 @@
 import { pageTitle } from 'ember-page-title';
+import { LinkTo } from '@ember/routing';
 import '../styles/index.css';
 
 // Flat homepage template stitched together from the former empress-blog
@@ -80,18 +81,26 @@ function isFirst(index) {
           >
 
             {{#if post.image}}
-              <div class="post-card-image-link">
+              <LinkTo
+                @route="post"
+                @model={{post.id}}
+                class="post-card-image-link"
+              >
                 <img
                   class="post-card-image"
                   src={{post.image}}
                   alt={{post.title}}
                 />
-              </div>
+              </LinkTo>
             {{/if}}
 
             <div class="post-card-content">
 
-              <div class="post-card-content-link">
+              <LinkTo
+                @route="post"
+                @model={{post.id}}
+                class="post-card-content-link"
+              >
 
                 <header class="post-card-header">
                   {{#if post.primaryTag}}
@@ -106,7 +115,7 @@ function isFirst(index) {
                   <p>{{excerpt post.content}}</p>
                 </section>
 
-              </div>
+              </LinkTo>
 
               <footer class="post-card-meta">
                 <ul class="author-list">

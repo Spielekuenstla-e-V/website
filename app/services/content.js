@@ -141,6 +141,24 @@ export default class ContentService extends Service {
     return this.#posts.find((post) => post.id === id) ?? null;
   }
 
+  /**
+   * A post plus its chronological neighbours, for the post detail page.
+   * `#posts` is sorted newest-first, so the "next" (newer) post is the one
+   * before it in the array and the "previous" (older) post is the one after.
+   */
+  postWithSiblings(id) {
+    const index = this.#posts.findIndex((post) => post.id === id);
+    if (index === -1) {
+      return null;
+    }
+
+    return {
+      post: this.#posts[index],
+      nextPost: this.#posts[index - 1] ?? null,
+      prevPost: this.#posts[index + 1] ?? null,
+    };
+  }
+
   authorById(id) {
     return this.#authorsById.get(id) ?? null;
   }

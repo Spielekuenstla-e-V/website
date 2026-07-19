@@ -1,0 +1,166 @@
+/* Post detail styles.
+   Flattened from the Ghost/Casper "Single Post" section of the former
+   empress-blog screen.css (post footer + author byline) plus simple
+   previous/next navigation. Shared page layout and content typography live in
+   application.css. PostCSS color() calls from the originals were replaced with
+   static values, since that PostCSS plugin is no longer part of the Vite
+   build. */
+
+/* stylelint-disable no-descending-specificity -- rules grouped by concern, not specificity */
+
+.post-full-meta-tag,
+.post-full-meta-readtime {
+  color: var(--midgrey);
+}
+
+/* Post footer / byline
+/* ---------------------------------------------------------- */
+
+.post-full-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 3vw 0 6vw;
+  max-width: 840px;
+}
+
+/* Single author byline */
+.author-card {
+  display: flex;
+}
+
+.author-card .author-profile-image,
+.author-card .avatar-wrapper {
+  margin-right: 15px;
+  width: 60px;
+  height: 60px;
+}
+
+.author-card-name {
+  margin: 8px 0 2px;
+  padding: 0;
+  font-size: 2rem;
+}
+
+.author-card-content p {
+  margin: 0;
+  color: var(--midgrey);
+  line-height: 1.3em;
+}
+
+/* Multiple author byline */
+.post-full-authors {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  padding-top: 40px;
+  border-top: #d3dde3 1px solid;
+}
+
+.post-full-authors-content {
+  margin-bottom: 20px;
+}
+
+.post-full-authors-content p {
+  margin-bottom: 0;
+  color: var(--midgrey);
+  font-size: 1.4rem;
+  letter-spacing: 0.2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.post-full-footer .author-list {
+  justify-content: center;
+  padding: 10px 20px;
+}
+
+.post-full-authors .author-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 320px;
+  text-align: center;
+}
+
+.post-full-authors .basic-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-full-authors .basic-info .author-profile-image,
+.post-full-authors .basic-info .avatar-wrapper {
+  margin: 0 0 1em;
+  width: 88px;
+  height: 88px;
+}
+
+.post-full-authors .bio {
+  padding: 10px 20px 0;
+}
+
+.post-full-authors .bio p {
+  margin: 0;
+  color: var(--midgrey);
+  line-height: 1.4em;
+}
+
+/* Previous / next navigation
+/* ---------------------------------------------------------- */
+
+.read-next {
+  padding-top: 4vw;
+  padding-bottom: 6vw;
+}
+
+.post-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+.post-nav a {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 25px;
+  color: var(--darkgrey);
+  background: #fff;
+  border-radius: 5px;
+  box-shadow:
+    rgb(39 44 49 / 6%) 8px 14px 38px,
+    rgb(39 44 49 / 3%) 1px 3px 8px;
+  transition: all 0.4s ease;
+}
+
+.post-nav a:hover {
+  text-decoration: none;
+  transform: translate3d(0, -1px, 0) scale(1.02);
+}
+
+.post-nav-next {
+  text-align: right;
+}
+
+.post-nav-label {
+  margin-bottom: 4px;
+  color: var(--midgrey);
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.post-nav-title {
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 1.2em;
+}
