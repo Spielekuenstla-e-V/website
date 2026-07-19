@@ -46,4 +46,31 @@ module('Application | static pages', function (hooks) {
       .dom('.post-full-image img')
       .exists('hero image is rendered when the page has one');
   });
+
+  test('page images resolve to existing files under /images or /uploads', async function (assert) {
+    for (const { route } of PAGES) {
+      await visit(route);
+      const srcs = [...document.querySelectorAll('.page-template img')].map(
+        (img) => img.getAttribute('src'),
+      );
+
+      srcs.forEach((src) => {
+        assert.ok(
+          /^\/(images|uploads)\//.test(src),
+          `${route}: image src "${src}" points at a public asset path`,
+        );
+      });
+    }
+  });
+
+  test('spielekuenstla body links to the flat /charter route (not empress /page/*)', async function (assert) {
+    await visit('/spielekuenstla');
+
+    assert
+      .dom('.post-content a[href="/charter"]')
+      .exists('internal charter link uses the new flat route');
+    assert
+      .dom('.post-content a[href="/page/charter"]')
+      .doesNotExist('the old empress-blog /page/ URL is gone');
+  });
 });
