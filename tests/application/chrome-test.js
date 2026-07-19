@@ -11,36 +11,40 @@ module('Application | site chrome', function (hooks) {
     assert.dom('.site-nav-header').exists('header on the homepage');
     assert.dom('.site-footer').exists('footer on the homepage');
 
-    await visit('/charter');
+    await visit('/page/charter');
     assert.dom('.site-nav-header').exists('header on a static page');
     assert.dom('.site-footer').exists('footer on a static page');
   });
 
-  test('header navigation links to the restored pages', async function (assert) {
+  test('header navigation links to the page routes', async function (assert) {
     await visit('/');
 
     assert.dom('.site-nav .nav li').exists({ count: 4 }, 'four nav items');
 
     await click('.site-nav .nav-verein a');
-    assert.strictEqual(currentURL(), '/spielekuenstla', 'Verein -> page');
+    assert.strictEqual(currentURL(), '/page/spielekuenstla', 'Verein -> page');
 
     await visit('/');
     await click('.site-nav .nav-angebote a');
-    assert.strictEqual(currentURL(), '/events', 'Angebote -> events');
+    assert.strictEqual(currentURL(), '/page/events', 'Angebote -> events');
 
     await visit('/');
     await click('.site-nav .nav-satzung a');
-    assert.strictEqual(currentURL(), '/charter', 'Gründungssatzung -> charter');
+    assert.strictEqual(
+      currentURL(),
+      '/page/charter',
+      'Gründungssatzung -> charter',
+    );
   });
 
-  test('footer INFO links point to the restored pages', async function (assert) {
+  test('footer INFO links point to the page routes', async function (assert) {
     await visit('/');
 
     const targets = {
-      events: '/events',
-      spielekuenstla: '/spielekuenstla',
-      charter: '/charter',
-      legal: '/legal',
+      events: '/page/events',
+      spielekuenstla: '/page/spielekuenstla',
+      charter: '/page/charter',
+      legal: '/page/legal',
     };
 
     for (const [slug, url] of Object.entries(targets)) {

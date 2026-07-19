@@ -7,8 +7,6 @@ export default class Router extends EmberRouter {
 }
 
 Router.map(function () {
-  this.route('charter');
-  this.route('events');
-  this.route('legal');
-  this.route('spielekuenstla');
+  // Static content pages live under /page/:page_id (empress-blog URL scheme).
+  this.route('page', { path: '/page/:page_id' });
 });

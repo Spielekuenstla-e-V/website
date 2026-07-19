@@ -18,13 +18,13 @@ import { LinkTo } from '@ember/routing';
               <LinkTo @route="index">Neuigkeiten</LinkTo>
             </li>
             <li class="nav-verein" role="menuitem">
-              <LinkTo @route="spielekuenstla">Verein</LinkTo>
+              <LinkTo @route="page" @model="spielekuenstla">Verein</LinkTo>
             </li>
             <li class="nav-angebote" role="menuitem">
-              <LinkTo @route="events">Angebote</LinkTo>
+              <LinkTo @route="page" @model="events">Angebote</LinkTo>
             </li>
             <li class="nav-satzung" role="menuitem">
-              <LinkTo @route="charter">Gründungssatzung</LinkTo>
+              <LinkTo @route="page" @model="charter">Gründungssatzung</LinkTo>
             </li>
           </ul>
 

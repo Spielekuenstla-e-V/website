@@ -18,11 +18,11 @@ function currentYear() {
       <nav class="site-footer-nav" aria-label="Info">
         <h3>INFO</h3>
         <ul class="nav-link-list">
-          <li><LinkTo @route="events">Angebote</LinkTo></li>
-          <li><LinkTo @route="spielekuenstla">Verein</LinkTo></li>
-          <li><LinkTo @route="charter">Gründungssatzung</LinkTo></li>
+          <li><LinkTo @route="page" @model="events">Angebote</LinkTo></li>
+          <li><LinkTo @route="page" @model="spielekuenstla">Verein</LinkTo></li>
+          <li><LinkTo @route="page" @model="charter">Gründungssatzung</LinkTo></li>
           <li><a href="mailto:info@spielekuenstla.de">Kontakt</a></li>
-          <li><LinkTo @route="legal">Impressum</LinkTo></li>
+          <li><LinkTo @route="page" @model="legal">Impressum</LinkTo></li>
         </ul>
       </nav>
 

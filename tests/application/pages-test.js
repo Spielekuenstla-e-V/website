@@ -3,10 +3,10 @@ import { visit } from '@ember/test-helpers';
 import { setupApplicationTest } from 'spielekuenstla-website/tests/helpers';
 
 const PAGES = [
-  { route: '/charter', slug: 'charter' },
-  { route: '/events', slug: 'events' },
-  { route: '/legal', slug: 'legal' },
-  { route: '/spielekuenstla', slug: 'spielekuenstla' },
+  { route: '/page/charter', slug: 'charter' },
+  { route: '/page/events', slug: 'events' },
+  { route: '/page/legal', slug: 'legal' },
+  { route: '/page/spielekuenstla', slug: 'spielekuenstla' },
 ];
 
 module('Application | static pages', function (hooks) {
@@ -31,8 +31,8 @@ module('Application | static pages', function (hooks) {
     });
   });
 
-  test('/events renders its banner images from the body HTML', async function (assert) {
-    await visit('/events');
+  test('/page/events renders its banner images from the body HTML', async function (assert) {
+    await visit('/page/events');
 
     assert
       .dom('.post-content #meetup')
@@ -40,7 +40,7 @@ module('Application | static pages', function (hooks) {
   });
 
   test('a page with an image renders a hero figure', async function (assert) {
-    await visit('/spielekuenstla');
+    await visit('/page/spielekuenstla');
 
     assert
       .dom('.post-full-image img')
@@ -63,14 +63,11 @@ module('Application | static pages', function (hooks) {
     }
   });
 
-  test('spielekuenstla body links to the flat /charter route (not empress /page/*)', async function (assert) {
-    await visit('/spielekuenstla');
+  test('spielekuenstla body links to the empress /page/charter route', async function (assert) {
+    await visit('/page/spielekuenstla');
 
     assert
-      .dom('.post-content a[href="/charter"]')
-      .exists('internal charter link uses the new flat route');
-    assert
       .dom('.post-content a[href="/page/charter"]')
-      .doesNotExist('the old empress-blog /page/ URL is gone');
+      .exists('internal charter link uses the /page/ URL scheme');
   });
 });
