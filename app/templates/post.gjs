@@ -6,10 +6,10 @@ import '../styles/post.css';
 
 // Post detail page, flattened from the former empress-blog post.hbs plus its
 // byline partials and the Ghost/Casper "Single Post" styles. The author-info
-// byline is delegated to <PostByline>. Related-posts ("read next") and the
-// email subscribe form from the original theme are omitted for now (no
-// author/tag routes or mailing-list backend yet); previous/next navigation is
-// kept as simple links.
+// byline is delegated to <PostByline>. The related-posts ("read next") card
+// and email subscribe form from the original theme are omitted (no mailing-
+// list backend); previous/next navigation is kept as simple links. The
+// primary tag links to its /tag/:tag_id archive.
 
 function body(html) {
   return htmlSafe(html ?? '');
@@ -35,13 +35,17 @@ function hasSiblings(model) {
               </time>
               {{#if post.primaryTag}}
                 <span class="date-divider">/</span>
-                <span class="post-full-meta-tag">
+                <LinkTo
+                  @route="tag"
+                  @model={{post.primaryTag.slug}}
+                  class="post-full-meta-tag"
+                >
                   {{if
                     post.primaryTag.name
                     post.primaryTag.name
                     post.primaryTag.slug
                   }}
-                </span>
+                </LinkTo>
               {{/if}}
               <span class="date-divider">/</span>
               <span class="post-full-meta-readtime">{{@model.readingTime}}</span>

@@ -1,0 +1,31 @@
+/* Tag archive page styles.
+   Flattened from the former empress-blog tag.hbs header. Shared header,
+   layout and post-feed styles live in application.css and index.css; these
+   are the tag-header specifics. */
+
+.tag-template-header .site-header-content {
+  padding: 6vw 4vw;
+}
+
+.tag-template-header .site-description {
+  z-index: 10;
+  margin: 5px 0 0;
+  max-width: 600px;
+  font-size: 2rem;
+  line-height: 1.3em;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  opacity: 0.8;
+}
+
+.tag-template-header .site-description p {
+  margin: 0;
+}
+
+@media (width <= 500px) {
+  .tag-template-header .site-description {
+    font-size: 1.8rem;
+    line-height: 1.15em;
+    letter-spacing: 0;
+  }
+}
