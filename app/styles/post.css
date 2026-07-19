@@ -49,6 +49,38 @@
   line-height: 1.3em;
 }
 
+.author-card-name a {
+  color: var(--darkgrey);
+  font-weight: 700;
+}
+
+.author-card-name a:hover {
+  text-decoration: none;
+}
+
+.post-full-footer-right {
+  flex-shrink: 0;
+  margin-left: 20px;
+}
+
+.author-card-button {
+  display: block;
+  padding: 9px 16px;
+  border: #a1b0b8 1px solid;
+  color: var(--midgrey);
+  font-size: 1.2rem;
+  line-height: 1;
+  font-weight: 500;
+  border-radius: 20px;
+  transition: all ease 0.2s;
+}
+
+.author-card-button:hover {
+  border-color: var(--blue);
+  color: var(--blue);
+  text-decoration: none;
+}
+
 /* Multiple author byline */
 .post-full-authors {
   flex-grow: 1;

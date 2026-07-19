@@ -1,9 +1,9 @@
+import { LinkTo } from '@ember/routing';
+
 // Author byline for the post detail page. Consolidated from the former
 // empress-blog byline-single.hbs and byline-multiple.hbs partials into a
-// single component that adapts to one or many authors.
-//
-// Author profile routes (/author/:id) have not been restored yet, so author
-// names are rendered as plain text rather than links for now.
+// single component that adapts to one or many authors. Author names link to
+// the author profile page (/author/:id).
 
 function isMultiple(authors) {
   return (authors?.length ?? 0) > 1;
@@ -36,7 +36,11 @@ function firstAuthor(authors) {
                     {{author.name}}
                   </div>
                 {{/if}}
-                <h2>{{author.name}}</h2>
+                <h2>
+                  <LinkTo @route="author" @model={{author.id}}>
+                    {{author.name}}
+                  </LinkTo>
+                </h2>
               </div>
               {{#if author.content}}
                 <div class="bio">
@@ -75,12 +79,21 @@ function firstAuthor(authors) {
           <span class="avatar-wrapper">{{author.name}}</span>
         {{/if}}
         <section class="author-card-content">
-          <h4 class="author-card-name">{{author.name}}</h4>
+          <h4 class="author-card-name">
+            <LinkTo @route="author" @model={{author.id}}>{{author.name}}</LinkTo>
+          </h4>
           {{#if author.content}}
             <p>{{author.content}}</p>
           {{/if}}
         </section>
       </section>
+      <div class="post-full-footer-right">
+        <LinkTo
+          @route="author"
+          @model={{author.id}}
+          class="author-card-button"
+        >Mehr lesen</LinkTo>
+      </div>
     {{/let}}
   {{/if}}
 </template>

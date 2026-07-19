@@ -1,31 +1,11 @@
 import { pageTitle } from 'ember-page-title';
-import { LinkTo } from '@ember/routing';
+import PostCard from 'spielekuenstla-website/components/post-card';
 import '../styles/index.css';
 
 // Flat homepage template stitched together from the former empress-blog
-// index.hbs + the Ghost/Casper post-card partial. Header, footer and
-// navigation are intentionally omitted for now and will be reintroduced later.
-// Post + event data comes from the `content` service via the index route
-// model (see app/routes/index.js).
-
-function excerpt(text, words = 33) {
-  if (!text) {
-    return '';
-  }
-
-  const plain = text
-    .replace(/<[^>]*>/g, ' ') // strip any inline HTML
-    .replace(/[#*_>`]/g, '') // strip common markdown markers
-    .replace(/\s+/g, ' ')
-    .trim();
-
-  const parts = plain.split(' ');
-  if (parts.length <= words) {
-    return plain;
-  }
-
-  return parts.slice(0, words).join(' ') + '…';
-}
+// index.hbs + the Ghost/Casper post-card partial (now the <PostCard>
+// component). Post + event data comes from the `content` service via the
+// index route model (see app/routes/index.js).
 
 function isFirst(index) {
   return index === 0;
@@ -73,75 +53,7 @@ function isFirst(index) {
         </div>
 
         {{#each @model.featuredPosts as |post index|}}
-
-          <article
-            class="post-card
-              {{unless post.image 'no-image'}}
-              {{if (isFirst index) 'post-card-large'}}"
-          >
-
-            {{#if post.image}}
-              <LinkTo
-                @route="post"
-                @model={{post.id}}
-                class="post-card-image-link"
-              >
-                <img
-                  class="post-card-image"
-                  src={{post.image}}
-                  alt={{post.title}}
-                />
-              </LinkTo>
-            {{/if}}
-
-            <div class="post-card-content">
-
-              <LinkTo
-                @route="post"
-                @model={{post.id}}
-                class="post-card-content-link"
-              >
-
-                <header class="post-card-header">
-                  {{#if post.primaryTag}}
-                    <span class="post-card-tags">
-                      {{if post.primaryTag.name post.primaryTag.name post.primaryTag.slug}}
-                    </span>
-                  {{/if}}
-                  <h2 class="post-card-title">{{post.title}}</h2>
-                </header>
-
-                <section class="post-card-excerpt">
-                  <p>{{excerpt post.content}}</p>
-                </section>
-
-              </LinkTo>
-
-              <footer class="post-card-meta">
-                <ul class="author-list">
-                  {{#each post.authors as |author|}}
-                    <li class="author-list-item">
-                      <div class="author-name-tooltip">{{author.name}}</div>
-                      {{#if author.image}}
-                        <span class="static-avatar">
-                          <img
-                            class="author-profile-image"
-                            src={{author.image}}
-                            alt={{author.name}}
-                          />
-                        </span>
-                      {{else}}
-                        <span class="static-avatar avatar-wrapper">{{author.name}}</span>
-                      {{/if}}
-                    </li>
-                  {{/each}}
-                </ul>
-              </footer>
-
-            </div>{{! /.post-card-content }}
-
-          </article>
-
+          <PostCard @post={{post}} @large={{isFirst index}} />
         {{/each}}
 
       </div>
