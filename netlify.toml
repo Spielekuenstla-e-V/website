@@ -1,9 +1,12 @@
 [build]
-  command = "npm run build"
+  command = "npm run build:static"
   publish = "dist"
 
 [build.environment]
   NODE_VERSION = "24"
+  # Ensure puppeteer downloads its bundled Chromium during `npm install` so the
+  # prerender step (npm run build:static) can render each route to static HTML.
+  PUPPETEER_SKIP_DOWNLOAD = "false"
 
 ## This rule redirects to an external API, signing requests with a secret
 [[redirects]]
@@ -15,10 +18,10 @@
   from = "/brettspielwochenende"
   to = "/20261023_brettspielwochenende"
 
-## SPA fallback: let the Ember (history) router handle client-side routes.
-## NOTE: prember/empress static prerendering was removed during the Vite
-## migration, so every route is now served from the SPA shell until static
-## generation is reimplemented as a Vite plugin.
+## SPA fallback. `npm run build:static` prerenders every known route to its own
+## static index.html (see lib/prerender.mjs), so those are served directly.
+## This fallback covers any unknown path, letting the Ember (history) router
+## render it client-side (e.g. a not-found route).
 [[redirects]]
   from = "/*"
   to = "/index.html"
