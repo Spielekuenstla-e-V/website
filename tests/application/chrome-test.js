@@ -74,4 +74,23 @@ module('Application | site chrome', function (hooks) {
       .dom('.site-footer-nav[aria-label="Social Media"]')
       .doesNotContainText('Twitter', 'Twitter link removed');
   });
+
+  test('header and footer social links render SVG icons', async function (assert) {
+    await visit('/');
+
+    assert
+      .dom('.site-nav .social-link .svg-icon svg')
+      .exists({ count: 3 }, 'header social links each render an svg icon');
+    assert
+      .dom('.site-footer-nav[aria-label="Social Media"] a .svg-icon svg')
+      .exists({ count: 3 }, 'footer social links render svg icons');
+  });
+
+  test('event list entries render the calendar-add SVG icon', async function (assert) {
+    await visit('/');
+
+    assert
+      .dom('#event-list a .calendar-add-icon svg')
+      .exists('calendar icon rendered as an inline SVG');
+  });
 });

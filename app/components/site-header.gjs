@@ -1,4 +1,5 @@
 import { LinkTo } from '@ember/routing';
+import SvgIcon from 'spielekuenstla-website/components/svg-icon';
 
 // Site header with primary navigation. Flattened from the former empress-blog
 // header.hbs + site-nav.hbs. The navigation links point at the restored page
@@ -35,21 +36,21 @@ import { LinkTo } from '@ember/routing';
               title="Trete dem Spielekünstla Discord bei"
               target="_blank"
               rel="noopener noreferrer"
-            >Discord</a>
+            ><SvgIcon @name="discord" /><span>Discord</span></a>
             <a
               class="social-link"
               href="https://instagram.com/spielekuenstla"
               title="Besuche Spielekünstla auf Instagram"
               target="_blank"
               rel="noopener noreferrer"
-            >Instagram</a>
+            ><SvgIcon @name="instagram" /><span>Instagram</span></a>
             <a
               class="social-link"
               href="https://whatsapp.com/channel/0029VafGRjJ7tkj2H918nA09"
               title="Abonniere den Spielekünstla Whatsapp-Kanal"
               target="_blank"
               rel="noopener noreferrer"
-            >Whatsapp</a>
+            ><SvgIcon @name="whatsapp" /><span>Whatsapp</span></a>
           </div>
         </div>
       </nav>

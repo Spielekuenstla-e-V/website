@@ -261,6 +261,43 @@ p {
   opacity: 1;
 }
 
+/* SVG icons (see app/components/svg-icon.gjs)
+/* ---------------------------------------------------------- */
+
+.svg-icon {
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+}
+
+.svg-icon svg {
+  width: 1.8rem;
+  height: 1.8rem;
+  fill: currentcolor;
+}
+
+.social-link .svg-icon svg {
+  fill: #fff;
+}
+
+.social-link span {
+  margin-left: 0.4em;
+}
+
+/* Avatar fallback logo, shown when an author has no profile image. */
+.avatar-wrapper .svg-icon,
+.avatar-wrapper .svg-icon svg,
+.author-fallback-icon,
+.author-fallback-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.avatar-wrapper .svg-icon svg,
+.author-fallback-icon svg {
+  fill: var(--primary);
+}
+
 /* Page / single-post layout
 /* ---------------------------------------------------------- */
 

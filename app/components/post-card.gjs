@@ -1,4 +1,5 @@
 import { LinkTo } from '@ember/routing';
+import SvgIcon from 'spielekuenstla-website/components/svg-icon';
 import 'spielekuenstla-website/styles/components/post-card.css';
 
 // Reusable post card, flattened from the former empress-blog post-card.hbs.
@@ -31,22 +32,14 @@ function excerpt(text, words = 33) {
       {{if @large 'post-card-large'}}"
   >
     {{#if @post.image}}
-      <LinkTo
-        @route="post"
-        @model={{@post.id}}
-        class="post-card-image-link"
-      >
+      <LinkTo @route="post" @model={{@post.id}} class="post-card-image-link">
         <img class="post-card-image" src={{@post.image}} alt={{@post.title}} />
       </LinkTo>
     {{/if}}
 
     <div class="post-card-content">
 
-      <LinkTo
-        @route="post"
-        @model={{@post.id}}
-        class="post-card-content-link"
-      >
+      <LinkTo @route="post" @model={{@post.id}} class="post-card-content-link">
         <header class="post-card-header">
           {{#if @post.primaryTag}}
             <span class="post-card-tags">
@@ -82,7 +75,10 @@ function excerpt(text, words = 33) {
                     alt={{author.name}}
                   />
                 {{else}}
-                  {{author.name}}
+                  <SvgIcon
+                    @name="logo-spielekuenstla-headline"
+                    class="author-fallback-icon"
+                  />
                 {{/if}}
               </LinkTo>
             </li>
@@ -90,6 +86,6 @@ function excerpt(text, words = 33) {
         </ul>
       </footer>
 
-    </div>{{! /.post-card-content }}
+    </div>
   </article>
 </template>

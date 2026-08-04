@@ -1,4 +1,5 @@
 import { LinkTo } from '@ember/routing';
+import SvgIcon from 'spielekuenstla-website/components/svg-icon';
 
 // Author byline for the post detail page. Consolidated from the former
 // empress-blog byline-single.hbs and byline-multiple.hbs partials into a
@@ -33,7 +34,7 @@ function firstAuthor(authors) {
                   />
                 {{else}}
                   <div class="author-profile-image avatar-wrapper">
-                    {{author.name}}
+                    <SvgIcon @name="logo-spielekuenstla-headline" />
                   </div>
                 {{/if}}
                 <h2>
@@ -58,9 +59,9 @@ function firstAuthor(authors) {
                 />
               </span>
             {{else}}
-              <span
-                class="moving-avatar author-profile-image avatar-wrapper"
-              >{{author.name}}</span>
+              <span class="moving-avatar author-profile-image avatar-wrapper">
+                <SvgIcon @name="logo-spielekuenstla-headline" />
+              </span>
             {{/if}}
           </li>
         {{/each}}
@@ -76,11 +77,16 @@ function firstAuthor(authors) {
             alt={{author.name}}
           />
         {{else}}
-          <span class="avatar-wrapper">{{author.name}}</span>
+          <span class="avatar-wrapper">
+            <SvgIcon @name="logo-spielekuenstla-headline" />
+          </span>
         {{/if}}
         <section class="author-card-content">
           <h4 class="author-card-name">
-            <LinkTo @route="author" @model={{author.id}}>{{author.name}}</LinkTo>
+            <LinkTo
+              @route="author"
+              @model={{author.id}}
+            >{{author.name}}</LinkTo>
           </h4>
           {{#if author.content}}
             <p>{{author.content}}</p>

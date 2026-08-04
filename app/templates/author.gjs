@@ -1,6 +1,7 @@
 import { pageTitle } from 'ember-page-title';
 import { htmlSafe } from '@ember/template';
 import PostCard from 'spielekuenstla-website/components/post-card';
+import SvgIcon from 'spielekuenstla-website/components/svg-icon';
 import '../styles/author.css';
 
 // Author profile page, flattened from the former empress-blog author.hbs plus
@@ -33,7 +34,9 @@ function postCount(posts) {
               alt={{author.name}}
             />
           {{else}}
-            <span class="avatar-wrapper">{{author.name}}</span>
+            <span class="avatar-wrapper">
+              <SvgIcon @name="logo-spielekuenstla-headline" />
+            </span>
           {{/if}}
 
           <h1 class="site-title">{{author.name}}</h1>

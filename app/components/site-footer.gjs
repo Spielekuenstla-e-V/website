@@ -1,4 +1,5 @@
 import { LinkTo } from '@ember/routing';
+import SvgIcon from 'spielekuenstla-website/components/svg-icon';
 
 // Site footer. Flattened from the former empress-blog application.hbs footer.
 // The INFO column links to the restored page routes; the "Angebote" (events)
@@ -20,7 +21,10 @@ function currentYear() {
         <ul class="nav-link-list">
           <li><LinkTo @route="page" @model="events">Angebote</LinkTo></li>
           <li><LinkTo @route="page" @model="spielekuenstla">Verein</LinkTo></li>
-          <li><LinkTo @route="page" @model="charter">Gründungssatzung</LinkTo></li>
+          <li><LinkTo
+              @route="page"
+              @model="charter"
+            >Gründungssatzung</LinkTo></li>
           <li><a href="mailto:info@spielekuenstla.de">Kontakt</a></li>
           <li><LinkTo @route="page" @model="legal">Impressum</LinkTo></li>
         </ul>
@@ -42,7 +46,7 @@ function currentYear() {
               title="Trete dem Spielekünstla Discord bei"
               target="_blank"
               rel="noopener noreferrer"
-            >Discord</a>
+            ><SvgIcon @name="discord" /><span>Discord</span></a>
           </li>
           <li>
             <a
@@ -50,7 +54,7 @@ function currentYear() {
               title="Besuche Spielekünstla auf Instagram"
               target="_blank"
               rel="noopener noreferrer"
-            >Instagram</a>
+            ><SvgIcon @name="instagram" /><span>Instagram</span></a>
           </li>
           <li>
             <a
@@ -58,13 +62,14 @@ function currentYear() {
               title="Abonniere den Spielekünstla Whatsapp-Kanal"
               target="_blank"
               rel="noopener noreferrer"
-            >Whatsapp</a>
+            ><SvgIcon @name="whatsapp" /><span>Whatsapp</span></a>
           </li>
         </ul>
       </nav>
     </div>
     <section class="inner">
-      Spielekünstla e.V. &copy; {{currentYear}}
+      Spielekünstla e.V. &copy;
+      {{currentYear}}
     </section>
   </footer>
 </template>
