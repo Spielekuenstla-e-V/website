@@ -1,4 +1,5 @@
 import { LinkTo } from '@ember/routing';
+import 'spielekuenstla-website/styles/components/post-card.css';
 
 // Reusable post card, flattened from the former empress-blog post-card.hbs.
 // Used by the homepage feed and the author page. Pass @large to render the
