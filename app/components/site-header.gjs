@@ -43,6 +43,13 @@ import { LinkTo } from '@ember/routing';
               target="_blank"
               rel="noopener noreferrer"
             >Instagram</a>
+            <a
+              class="social-link"
+              href="https://whatsapp.com/channel/0029VafGRjJ7tkj2H918nA09"
+              title="Abonniere den Spielekünstla Whatsapp-Kanal"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Whatsapp</a>
           </div>
         </div>
       </nav>

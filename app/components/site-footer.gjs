@@ -52,6 +52,14 @@ function currentYear() {
               rel="noopener noreferrer"
             >Instagram</a>
           </li>
+          <li>
+            <a
+              href="https://whatsapp.com/channel/0029VafGRjJ7tkj2H918nA09"
+              title="Abonniere den Spielekünstla Whatsapp-Kanal"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Whatsapp</a>
+          </li>
         </ul>
       </nav>
     </div>
