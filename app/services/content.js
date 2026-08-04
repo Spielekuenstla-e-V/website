@@ -152,10 +152,12 @@ export default class ContentService extends Service {
       return null;
     }
 
+    const featuredPostIndex = this.featuredPosts.findIndex((post) => post.id === id);
+    // BEWARE: we should always allow finding all posts, but we only give out the next and previous featured posts!
     return {
       post: this.#posts[index],
-      nextPost: this.#posts[index - 1] ?? null,
-      prevPost: this.#posts[index + 1] ?? null,
+      nextPost: this.featuredPosts[featuredPostIndex - 1] ?? null,
+      prevPost: this.featuredPosts[featuredPostIndex + 1] ?? null,
     };
   }
 
