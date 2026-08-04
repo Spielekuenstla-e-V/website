@@ -4,34 +4,6 @@
    in application.css since they overlap with the static page templates.
    Assembled from the former Ghost/Casper screen.css (Post Feed section). */
 
-/* Event list ("Nächste Termine")
-/* ---------------------------------------------------------- */
-
-#event-list {
-  margin: 0 0 1.5em;
-  padding: 0;
-  list-style: none;
-}
-
-#event-list li {
-  margin: 0.5em 0;
-  line-height: 1.6em;
-}
-
-#event-list a {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4em;
-  color: var(--primary);
-  font-weight: 500;
-}
-
-.calendar-add-icon svg {
-  width: 1em;
-  height: 1em;
-  fill: currentcolor;
-}
-
 /* Post Feed
 /* ---------------------------------------------------------- */
 

@@ -33,31 +33,35 @@ function currentYear() {
       <nav class="site-footer-nav" aria-label="Social Media">
         <h3>SOCIAL MEDIA</h3>
         <ul class="nav-link-list">
-          <li>
+          <li class="nav-link-list-item">
             <a
+              class="nav-link-list-item-link"
               href="https://rezensionen-fuer-millionen.blogspot.com/2018/10/spielend-fur-toleranz.html"
               target="_blank"
               rel="noopener noreferrer"
             >Spielend für Toleranz</a>
           </li>
-          <li>
+          <li class="nav-link-list-item">
             <a
+              class="nav-link-list-item-link"
               href="https://discord.gg/7vd8c9Ev7t"
               title="Trete dem Spielekünstla Discord bei"
               target="_blank"
               rel="noopener noreferrer"
             ><SvgIcon @name="discord" /><span>Discord</span></a>
           </li>
-          <li>
+          <li class="nav-link-list-item">
             <a
+              class="nav-link-list-item-link"
               href="https://instagram.com/spielekuenstla"
               title="Besuche Spielekünstla auf Instagram"
               target="_blank"
               rel="noopener noreferrer"
             ><SvgIcon @name="instagram" /><span>Instagram</span></a>
           </li>
-          <li>
+          <li class="nav-link-list-item">
             <a
+              class="nav-link-list-item-link"
               href="https://whatsapp.com/channel/0029VafGRjJ7tkj2H918nA09"
               title="Abonniere den Spielekünstla Whatsapp-Kanal"
               target="_blank"

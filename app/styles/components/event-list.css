@@ -1,0 +1,44 @@
+/* Event list ("Nächste Termine")
+/* ---------------------------------------------------------- */
+
+.event-list {
+  margin: 0 0 1.5em;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.event-list-item {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.5em 0;
+  line-height: 1.6em;
+  padding: 0.5rem;
+  border-bottom: 1px dotted black;
+}
+.event-list-item:last-child {
+  border: none;
+}
+
+.event-list-item-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  color: var(--primary);
+  font-weight: 500;
+  width: 100%;
+}
+
+@media (width >= 795px) {
+  .event-list-item-link {
+    width: initial;
+  }
+}
+
+.calendar-add-icon svg {
+  width: 1em;
+  height: 1em;
+  fill: currentcolor;
+}

@@ -609,9 +609,14 @@ p {
   font-size: medium;
 }
 
-.nav-link-list li {
+.nav-link-list-item {
   margin-left: 0;
   padding-left: 0;
+}
+
+.nav-link-list-item-link {
+  display: flex;
+  gap: 0.5rem;
 }
 
 @media (width <= 650px) {
