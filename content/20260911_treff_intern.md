@@ -4,7 +4,7 @@ image: /images/treff_banner.jpg
 featured: false
 authors:
   - jay
-date: Fri Sep 09 2026 17:00:00 GMT+0100 (IST)
+date: Fri Sep 11 2026 17:00:00 GMT+0100 (IST)
 meta:
   event: Vereinsinterner Spieletreff
   startTime: 17 Uhr
