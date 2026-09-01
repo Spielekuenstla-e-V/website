@@ -1,12 +1,9 @@
 [build]
-  command = "npm run build:static"
+  command = "pnpm run build"
   publish = "dist"
 
 [build.environment]
   NODE_VERSION = "24"
-  # Ensure puppeteer downloads its bundled Chromium during `npm install` so the
-  # prerender step (npm run build:static) can render each route to static HTML.
-  PUPPETEER_SKIP_DOWNLOAD = "false"
 
 ## This rule redirects to an external API, signing requests with a secret
 [[redirects]]
