@@ -21,7 +21,7 @@ function routesFor({ posts, authors, pages, tags }) {
   ];
 }
 
-export default defineConfig(async ({ command, mode }) => {
+export default defineConfig(async (/*{ command, mode }*/) => {
   const contentData = await loadContent();
   const routes = routesFor(contentData);
 
