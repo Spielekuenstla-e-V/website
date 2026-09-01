@@ -108,6 +108,7 @@
 .post-full-footer .author-list {
   justify-content: center;
   padding: 10px 20px;
+  gap: 20px;
 }
 
 .post-full-authors .author-card {
@@ -127,19 +128,9 @@
 
 .post-full-authors .basic-info .author-profile-image,
 .post-full-authors .basic-info .avatar-wrapper {
-  margin: 0 0 1em;
+  margin: 0 0 1rem;
   width: 88px;
   height: 88px;
-}
-
-.post-full-authors .bio {
-  padding: 10px 20px 0;
-}
-
-.post-full-authors .bio p {
-  margin: 0;
-  color: var(--midgrey);
-  line-height: 1.4em;
 }
 
 /* Previous / next navigation

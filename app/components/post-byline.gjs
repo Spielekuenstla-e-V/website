@@ -24,45 +24,26 @@ function firstAuthor(authors) {
       <ul class="author-list">
         {{#each @authors as |author|}}
           <li class="author-list-item">
-            <div class="author-card">
-              <div class="basic-info">
-                {{#if author.image}}
-                  <img
-                    class="author-profile-image"
-                    src={{author.image}}
-                    alt={{author.name}}
-                  />
-                {{else}}
-                  <div class="author-profile-image avatar-wrapper">
-                    <SvgIcon @name="logo-spielekuenstla-headline" />
-                  </div>
-                {{/if}}
-                <h2>
-                  <LinkTo @route="author" @model={{author.id}}>
-                    {{author.name}}
-                  </LinkTo>
-                </h2>
-              </div>
-              {{#if author.content}}
-                <div class="bio">
-                  <p>{{author.content}}</p>
+            <LinkTo @route="author" @model={{author.id}}>
+              <div class="author-card">
+                <div class="basic-info">
+                  {{#if author.image}}
+                    <img
+                      class="author-profile-image"
+                      src={{author.image}}
+                      alt={{author.name}}
+                    />
+                  {{else}}
+                    <div class="avatar-wrapper author-profile-image">
+                      <SvgIcon @name="logo-spielekuenstla-headline" />
+                    </div>
+                  {{/if}}
+                  <h2>
+                      {{author.name}}
+                  </h2>
                 </div>
-              {{/if}}
-            </div>
-
-            {{#if author.image}}
-              <span class="moving-avatar">
-                <img
-                  class="author-profile-image"
-                  src={{author.image}}
-                  alt={{author.name}}
-                />
-              </span>
-            {{else}}
-              <span class="moving-avatar author-profile-image avatar-wrapper">
-                <SvgIcon @name="logo-spielekuenstla-headline" />
-              </span>
-            {{/if}}
+              </div>
+            </LinkTo>
           </li>
         {{/each}}
       </ul>
