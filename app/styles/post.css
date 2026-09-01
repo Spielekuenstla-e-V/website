@@ -28,6 +28,7 @@
 /* Single author byline */
 .author-card {
   display: flex;
+  color: var(--midgrey);
 }
 
 .author-card .author-profile-image,
@@ -37,24 +38,20 @@
   height: 60px;
 }
 
+.author-card-content {
+  display: flex;
+  align-items: center;
+}
+
 .author-card-name {
-  margin: 8px 0 2px;
-  padding: 0;
-  font-size: 2rem;
-}
-
-.author-card-content p {
   margin: 0;
-  color: var(--midgrey);
-  line-height: 1.3em;
-}
-
-.author-card-name a {
+  padding: 0;
+  font-size: 2.5rem;
   color: var(--darkgrey);
   font-weight: 700;
 }
 
-.author-card-name a:hover {
+.author-card-name:hover {
   text-decoration: none;
 }
 

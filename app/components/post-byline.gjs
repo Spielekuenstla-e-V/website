@@ -24,8 +24,8 @@ function firstAuthor(authors) {
       <ul class="author-list">
         {{#each @authors as |author|}}
           <li class="author-list-item">
-            <LinkTo @route="author" @model={{author.id}}>
-              <div class="author-card">
+            <div class="author-card">
+              <LinkTo @route="author" @model={{author.id}}>
                 <div class="basic-info">
                   {{#if author.image}}
                     <img
@@ -38,12 +38,12 @@ function firstAuthor(authors) {
                       <SvgIcon @name="logo-spielekuenstla-headline" />
                     </div>
                   {{/if}}
-                  <h2>
-                      {{author.name}}
-                  </h2>
+                  <span class="author-card-name">
+                    {{author.name}}
+                  </span>
                 </div>
-              </div>
-            </LinkTo>
+              </LinkTo>
+            </div>
           </li>
         {{/each}}
       </ul>
@@ -58,28 +58,20 @@ function firstAuthor(authors) {
             alt={{author.name}}
           />
         {{else}}
-          <span class="avatar-wrapper">
+          <span class="avatar-wrapper author-profile-image">
             <SvgIcon @name="logo-spielekuenstla-headline" />
           </span>
         {{/if}}
         <section class="author-card-content">
-          <h4 class="author-card-name">
-            <LinkTo
-              @route="author"
-              @model={{author.id}}
-            >{{author.name}}</LinkTo>
-          </h4>
-          {{#if author.content}}
-            <p>{{author.content}}</p>
-          {{/if}}
+          <LinkTo @route="author" @model={{author.id}} class="author-card-name">
+            {{author.name}}
+          </LinkTo>
         </section>
       </section>
       <div class="post-full-footer-right">
-        <LinkTo
-          @route="author"
-          @model={{author.id}}
-          class="author-card-button"
-        >Mehr lesen</LinkTo>
+        <LinkTo @route="author" @model={{author.id}} class="author-card-button">
+          Mehr lesen
+        </LinkTo>
       </div>
     {{/let}}
   {{/if}}
