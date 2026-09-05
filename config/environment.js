@@ -6,7 +6,6 @@ module.exports = function (environment) {
     environment,
     rootURL: '/',
     locationType: 'history',
-
     EmberENV: {
       EXTEND_PROTOTYPES: false,
       FEATURES: {
@@ -18,24 +17,6 @@ module.exports = function (environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    },
-
-    blog: {
-      title: 'Spielekünstla',
-      description: '',
-      // coverImage: '/images/spielekuenstla-logo.png',
-
-      navigation: [
-        {
-          label: 'Neuigkeiten',
-          route: 'index',
-        },
-        {
-          label: 'Verein',
-          route: 'page',
-          id: 'spielekuenstla',
-        },
-      ],
     },
   };
 
@@ -61,7 +42,6 @@ module.exports = function (environment) {
 
   if (environment === 'production') {
     // here you can enable a production-specific feature
-    ENV.blog.host = 'https://spielekuenstla.de/';
   }
 
   return ENV;

@@ -1,0 +1,78 @@
+import { LinkTo } from '@ember/routing';
+import SvgIcon from 'spielekuenstla-website/components/svg-icon';
+
+// Author byline for the post detail page. Consolidated from the former
+// empress-blog byline-single.hbs and byline-multiple.hbs partials into a
+// single component that adapts to one or many authors. Author names link to
+// the author profile page (/author/:id).
+
+function isMultiple(authors) {
+  return (authors?.length ?? 0) > 1;
+}
+
+function firstAuthor(authors) {
+  return authors?.[0];
+}
+
+<template>
+  {{#if (isMultiple @authors)}}
+    <section class="post-full-authors">
+      <div class="post-full-authors-content">
+        <p>Dieser Beitrag ist eine Zusammenarbeit von</p>
+      </div>
+
+      <ul class="author-list">
+        {{#each @authors as |author|}}
+          <li class="author-list-item">
+            <div class="author-card">
+              <LinkTo @route="author" @model={{author.id}}>
+                <div class="basic-info">
+                  {{#if author.image}}
+                    <img
+                      class="author-profile-image"
+                      src={{author.image}}
+                      alt={{author.name}}
+                    />
+                  {{else}}
+                    <div class="avatar-wrapper author-profile-image">
+                      <SvgIcon @name="logo-spielekuenstla-headline" />
+                    </div>
+                  {{/if}}
+                  <span class="author-card-name">
+                    {{author.name}}
+                  </span>
+                </div>
+              </LinkTo>
+            </div>
+          </li>
+        {{/each}}
+      </ul>
+    </section>
+  {{else if @authors.length}}
+    {{#let (firstAuthor @authors) as |author|}}
+      <section class="author-card">
+        {{#if author.image}}
+          <img
+            class="author-profile-image"
+            src={{author.image}}
+            alt={{author.name}}
+          />
+        {{else}}
+          <span class="avatar-wrapper author-profile-image">
+            <SvgIcon @name="logo-spielekuenstla-headline" />
+          </span>
+        {{/if}}
+        <section class="author-card-content">
+          <LinkTo @route="author" @model={{author.id}} class="author-card-name">
+            {{author.name}}
+          </LinkTo>
+        </section>
+      </section>
+      <div class="post-full-footer-right">
+        <LinkTo @route="author" @model={{author.id}} class="author-card-button">
+          Mehr lesen
+        </LinkTo>
+      </div>
+    {{/let}}
+  {{/if}}
+</template>

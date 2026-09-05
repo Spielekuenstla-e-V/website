@@ -1,0 +1,99 @@
+/* Homepage (index) stylesheet.
+   Page-specific styles for the flat homepage feed. Shared tokens, the CSS
+   reset/base typography and layout containers (.site-main/.outer/.inner) live
+   in application.css since they overlap with the static page templates.
+   Assembled from the former Ghost/Casper screen.css (Post Feed section). */
+
+/* Post Feed
+/* ---------------------------------------------------------- */
+
+.post-feed {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -20px;
+  padding: 40px 0 0;
+}
+
+.author-profile-image,
+.avatar-wrapper {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #cfdae0;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.avatar-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: var(--primary);
+  background-color: var(--whitegrey);
+  text-transform: uppercase;
+}
+
+.author-list {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.author-list-item {
+  position: relative;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.static-avatar {
+  display: block;
+  overflow: hidden;
+  margin: 0 -5px;
+  width: 34px;
+  height: 34px;
+  border: #fff 2px solid;
+  border-radius: 100%;
+}
+
+.author-name-tooltip {
+  position: absolute;
+  bottom: 105%;
+  z-index: 999;
+  display: block;
+  padding: 2px 8px;
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 0.2px;
+  white-space: nowrap;
+  background: var(--darkgrey);
+  border-radius: 3px;
+  box-shadow:
+    rgb(39 44 49 / 8%) 0 12px 26px,
+    rgb(39 44 49 / 3%) 1px 3px 8px;
+  opacity: 0;
+  transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+  transform: translateY(6px);
+  pointer-events: none;
+}
+
+.author-list-item:hover .author-name-tooltip {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (width <= 650px) {
+  .author-name-tooltip {
+    display: none;
+  }
+}
+
+@media (width <= 650px) {
+  .post-feed {
+    padding-top: 5vw;
+  }
+}

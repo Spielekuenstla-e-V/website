@@ -1,0 +1,79 @@
+import { LinkTo } from '@ember/routing';
+import SvgIcon from 'spielekuenstla-website/components/svg-icon';
+
+// Site footer. Flattened from the former empress-blog application.hbs footer.
+// The INFO column links to the restored page routes; the "Angebote" (events)
+// link — which was commented out on master — is now wired up since that page
+// has been restored. Social links reproduce those configured on master
+// (Spielend für Toleranz, Discord, Instagram). The email subscribe form and
+// RSS feed from the original theme are dropped (no mailing list / feed backend
+// yet).
+
+function currentYear() {
+  return new Date().getFullYear();
+}
+
+<template>
+  <footer class="site-footer outer">
+    <div class="site-footer-content inner">
+      <nav class="site-footer-nav" aria-label="Info">
+        <h3>INFO</h3>
+        <ul class="nav-link-list">
+          <li><LinkTo @route="page" @model="events">Angebote</LinkTo></li>
+          <li><LinkTo @route="page" @model="spielekuenstla">Verein</LinkTo></li>
+          <li><LinkTo
+              @route="page"
+              @model="charter"
+            >Gründungssatzung</LinkTo></li>
+          <li><a href="mailto:info@spielekuenstla.de">Kontakt</a></li>
+          <li><LinkTo @route="page" @model="legal">Impressum</LinkTo></li>
+        </ul>
+      </nav>
+
+      <nav class="site-footer-nav" aria-label="Social Media">
+        <h3>SOCIAL MEDIA</h3>
+        <ul class="nav-link-list">
+          <li class="nav-link-list-item">
+            <a
+              class="nav-link-list-item-link"
+              href="https://rezensionen-fuer-millionen.blogspot.com/2018/10/spielend-fur-toleranz.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Spielend für Toleranz</a>
+          </li>
+          <li class="nav-link-list-item">
+            <a
+              class="nav-link-list-item-link"
+              href="https://discord.gg/7vd8c9Ev7t"
+              title="Trete dem Spielekünstla Discord bei"
+              target="_blank"
+              rel="noopener noreferrer"
+            ><SvgIcon @name="discord" /><span>Discord</span></a>
+          </li>
+          <li class="nav-link-list-item">
+            <a
+              class="nav-link-list-item-link"
+              href="https://instagram.com/spielekuenstla"
+              title="Besuche Spielekünstla auf Instagram"
+              target="_blank"
+              rel="noopener noreferrer"
+            ><SvgIcon @name="instagram" /><span>Instagram</span></a>
+          </li>
+          <li class="nav-link-list-item">
+            <a
+              class="nav-link-list-item-link"
+              href="https://whatsapp.com/channel/0029VafGRjJ7tkj2H918nA09"
+              title="Abonniere den Spielekünstla Whatsapp-Kanal"
+              target="_blank"
+              rel="noopener noreferrer"
+            ><SvgIcon @name="whatsapp" /><span>Whatsapp</span></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <section class="inner">
+      Spielekünstla e.V. &copy;
+      {{currentYear}}
+    </section>
+  </footer>
+</template>

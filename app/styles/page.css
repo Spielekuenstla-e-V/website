@@ -1,0 +1,31 @@
+/* Static page styles (dynamic /page/:page_id route).
+   Consolidated from the former per-page files now that all pages share one
+   template. Shared page layout and content typography live in application.css;
+   these are the page-body-specific helpers. */
+
+/* "Angebote" (events) page: images with ids (#meetup, #private_meetup,
+   #events, #pnp) are used as section banners. */
+/* stylelint-disable selector-id-pattern -- ids come from authored markdown (content/pages/events.md) */
+.post-full-content #meetup,
+.post-full-content #private_meetup,
+.post-full-content #events,
+.post-full-content #pnp {
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+/* stylelint-enable selector-id-pattern */
+
+/* "Verein" (spielekuenstla) page: .border-box frames sections in the body
+   (flattened from the former empress-blog components/border-box.css). */
+.border-box {
+  border: 2px solid var(--lightgrey);
+  padding: 0 4rem 4rem;
+  margin: 0 -4rem 2rem;
+}
+
+.border-box h2 {
+  padding-top: 4rem;
+  margin-top: 0;
+}

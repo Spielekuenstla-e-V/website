@@ -1,3 +1,10 @@
+[build]
+  command = "pnpm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "24"
+
 ## This rule redirects to an external API, signing requests with a secret
 [[redirects]]
   from = "/dieliste"
@@ -7,3 +14,12 @@
 [[redirects]]
   from = "/brettspielwochenende"
   to = "/20261023_brettspielwochenende"
+
+## SPA fallback. `npm run build:static` prerenders every known route to its own
+## static index.html (see lib/prerender.mjs), so those are served directly.
+## This fallback covers any unknown path, letting the Ember (history) router
+## render it client-side (e.g. a not-found route).
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
