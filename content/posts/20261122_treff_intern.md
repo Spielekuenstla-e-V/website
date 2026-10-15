@@ -1,7 +1,7 @@
 ---
-title: Tag Team Turnier & Spielekünstla-Treff
+title: Members-Only Spielekünstla-Treff & Tag Team Turnier
 image: /images/20261122_tag-team3.jpeg
-featured: true
+featured: false
 authors:
   - annika
   - sabrina
