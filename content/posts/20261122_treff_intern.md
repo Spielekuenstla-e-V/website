@@ -15,9 +15,7 @@ tags:
   - spieleabend-intern
 ---
 
-Am 22. November ist es wieder so weit!
-
-Dieses mal gibt es eine Überraschung: Wir veranstalten ein ***Tag Team*** Turnier!
+Am 22. November ist es wieder so weit! Dieses mal gibt es eine Überraschung: Wir veranstalten ein ***Tag Team*** Turnier!
 **====>>>>   [Anmeldeformular für Vereinsmitglieder](https://docs.google.com/forms/d/e/1FAIpQLSdWswFgdN-sRrNWvb0R8WnMYgRW6jry-wLd7xBxoz1JkQm6Lg/viewform)   <<<<====**
 
 
