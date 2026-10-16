@@ -1,7 +1,7 @@
 ---
 title: Members-Only Spielekünstla-Treff & Tag Team Turnier
 image: /images/20261122_tag-team3.jpeg
-featured: false
+featured: true
 authors:
   - annika
   - sabrina
@@ -9,7 +9,7 @@ authors:
   - jay
 date: Sun Nov 22 2026 14:00:00 GMT+0100 (IST)
 meta:
-  event: Vereinsinterner Spieletreff
+  event: Vereinsinterner Spieletreff & Tag Team Turnier
   startTime: 14 Uhr
 tags:
   - spieleabend-intern
